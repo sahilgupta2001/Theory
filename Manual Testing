@@ -1,0 +1,8 @@
+1. What is Software Testing ?
+  Software Testing is a process of finding bugs and errors in the software. Its goal is to give enough confidence to the stakeholders to release the software to clients.
+  In general, you can divide software testing into two broad categories, namely manual testing and automated testing.
+  Manual Testing : A human tester manually tests the software, performing all the actions that the real users are supposed to take.
+  Automated Testing : A software tool conducts the testing, programmatically executing the code under the test, providing the pre-configured inputs, and verifying the actual output with the expected result.
+
+2. What is SDLC ?
+  SDLC(Software Development Life Cycle) is a process followed for software building within a software organization.
