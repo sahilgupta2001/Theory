@@ -1,0 +1,92 @@
+1. What is Software Testing ?
+  Software Testing is a process of finding bugs and errors in the software. Its goal is to give enough confidence to the stakeholders to release the software to clients.
+  In general, you can divide software testing into two broad categories, namely manual testing and automated testing.
+  Manual Testing : A human tester manually tests the software, performing all the actions that the real users are supposed to take.
+  Automated Testing : A software tool conducts the testing, programmatically executing the code under the test, providing the pre-configured inputs, and verifying the actual output with the expected result.
+
+2. What is SDLC ?
+  SDLC(Software Development Life Cycle) is a process followed for software building within a software organization. SDLC consists of a precise plan that describes how to develop, maintain, replace, and enhance specific software. The life cycle defines a method for improving the quality of software and the all-around development process.
+  Stages of the SDLC
+  SDLC Specifies the task(s) to be performed at various stages by a software engineer or developer. It ensures that the end product is able to meet the customer expectations and fits within the overall budget.
+  Stage 1  Planning & Requirements Analysis
+    1. Planning  2. Define Project Scope  3. Set Objectives and Goals  4. Resource Planning
+  Stage 2  Defining Requirements
+    1. Defining  2. Functional Requirements  3. Technical Requirements  4. Requirements Reveiws and Approved
+  Stage 3  Design
+    1. Design  2. HLD(High Level Design)  3. LLD(Low Level Design)
+  Stage 4  Development
+    1. Development  2. Coding Standard  3. Scalable Code  4. Version Control  5. Code Review
+  Stage 5  Testing
+    1. System Testing  2. Manual Testing  3. Automated Testing
+  Stage 6  Deployment & Maintenance
+    1. Deployment Maintenance  2. Release Planning  3. Deployment Automation  4. Maintenance  5. Feedback
+
+3. What is SRS ?
+  The SRS(Software Requirement Specification) document helps ensures that the software meets functional & non-functional requirements, resulting in a quality product on time and within budget.
+  1. Requirement Gathering
+  2. Designing Phase
+  3. Development/Implementation Phase
+  4. Testing Phase
+  5. Delivered/Deployment Phase
+  6. Maintenance Phase
+
+4. What is STLC ?
+  STLC(Software Testing Life Cycle) is a fundamental part of SDLC which is used to test software and ensure that the quality met the standards. Varification and Validation are generally involved in these process. In this, differnet activities are executed in a specific order throught the software testing process.
+  The stages of the STLC includes Test Planning, Test Analysis, Test Design, Test Environment Setup, Test Execution, Test Closure, and Defect Retesting. Each of these stages includes specific activities and deliverable that helps to ensure that the software is throughly tested and meets the requirements of the end users.
+  Characteristics of STLC
+  1. STLC is a fundamental part of SDLC but STLC consists of only the testing phase.
+  2. STLC starts as soon as requirements are defined.
+  3. STLC yields a step-by-step process to ensure quality software.
+  There are basically six different phases in STLC model :
+  1. Requirement Analysis
+  2. Test Planning
+  3. Test Case Development
+  4. Environment Setup
+  5. Test Execution
+  6. Test Cycle Closure
+
+5. What is Bug Report
+  A software Bug Report contains specific information about what is wrong and what needs to be fixed in software or on a website. These comprehensive reports include requests or specifics for each software issuse. It lets the developers understand what is wrong and how to fix it.
+  Summary  Project Name  Environment  Version Module  Interface  Description
+  A)Step to reproduce
+  B)Problem Statement
+  C)Screenshot/Video
+
+6. What is Bug/Defect Life Cycle
+  New
+  Assign to Developer/Assigned
+  Open
+          Deferred
+  Reopen  Duplicate
+          Rejected
+      Fixed
+  Retesting
+  Verified
+  Closed
+
+  1. New - The bug is reported by the tester or user and is in the initial stage. At this stage, the bug is not verified by the development team.
+  2. Assigned - The bug report is assigned to a developer or development team for review and analysis. The developer reveiws the bug report and determine if it is valid issue.
+  3. Open - The developer confirms that the big report is valid and assign it the status of "Open". The developer then begins working on fix the bug.
+  4. In Progress - The developer team starts working on fixing the bug. The status of the bug is changed to "In Progress".
+  5. Fixed - After the developer fixes the bug, the status of the bug is changed to "Fixed". The developer then passes the bug to the testing team for verification.
+  6. Verified - The testing team tests the bug to ensures that it has been properly resolved. If the bug fix is verified, the bug status is changed to "Verified" and is sent back to the development team for deployment.
+  7. Closed - Once the bug has been deployed to the production environment and verified by the users, the bug is marked as "Closed". The bug is now considered to be resolved.
+  8. ReOpened - If the bug resurfaces after being marked as closed, it is assigned a status of "ReOpened" and sent back to the development team for further analysis and resolution.
+
+7. What is Deferred ?
+  When developer denied to fix any bug for the time being, they said i will check that bug into the next release just because of low priority issue.
+
+8. What is Duplicate ?
+  When developer said for any bug it has been already raised incorporate with another bug when that will be fixed, it will fixed by default.
+
+9. What is Rejected ? 
+  If developers during analysis found that defects is genuine or valid or authenticate, then it is automatically assigned a status as "Rejected".
+
+9. What is Functional and Non-Functional Testing ?
+  Functional Testing - When we verify the client required functionality only so that is known as functional Testing.
+  1. Unit Testing - Unit Testing always perform by the developer to verify their developed functionality known as Unit Testing.
+  2. Smoke/Initial Level/Surface Level/BVT Testing - In this we will verify the happy flow of the application to verify that build is testable for the further level testing or not.
+  3. Sanity Testing - When we test the critical functionality of the application because of lack of time so that is called sanity testing.
+  4. Regression Testing - Whenever new changes is comes over the application or any bug fixing is required so we have to test the functionality as well as related functionality of the application so that is called regression testing.
+  5. Retesting - When we test any functionality again so that is called retesting.
+  6. Integration Testing - 
