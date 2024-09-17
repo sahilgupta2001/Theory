@@ -31,7 +31,7 @@
   6. Maintenance Phase
 
 4. What is STLC ?
-  STLC(Software Testing Life Cycle) is a fundamental part of SDLC which is used to test software and ensure that the quality met the standards. Varification and Validation are generally involved in these process. In this, differnet activities are executed in a specific order throught the software testing process.
+  STLC(Software Testing Life Cycle) is a fundamental part of SDLC which is used to test software and ensure that the quality met the standards. Verification and Validation are generally involved in these process. In this, differnet activities are executed in a specific order throught the software testing process.
   The stages of the STLC includes Test Planning, Test Analysis, Test Design, Test Environment Setup, Test Execution, Test Closure, and Defect Retesting. Each of these stages includes specific activities and deliverable that helps to ensure that the software is throughly tested and meets the requirements of the end users.
   Characteristics of STLC
   1. STLC is a fundamental part of SDLC but STLC consists of only the testing phase.
