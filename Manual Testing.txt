@@ -83,10 +83,12 @@
   If developers during analysis found that defects is genuine or valid or authenticate, then it is automatically assigned a status as "Rejected".
 
 9. What is Functional and Non-Functional Testing ?
-  Functional Testing - When we verify the client required functionality only so that is known as functional Testing.
+  Functional Testing - When we verify the client required functionality only so that is known as Functional Testing.
   1. Unit Testing - Unit Testing always perform by the developer to verify their developed functionality known as Unit Testing.
   2. Smoke/Initial Level/Surface Level/BVT Testing - In this we will verify the happy flow of the application to verify that build is testable for the further level testing or not.
-  3. Sanity Testing - When we test the critical functionality of the application because of lack of time so that is called sanity testing.
-  4. Regression Testing - Whenever new changes is comes over the application or any bug fixing is required so we have to test the functionality as well as related functionality of the application so that is called regression testing.
-  5. Retesting - When we test any functionality again so that is called retesting.
-  6. Integration Testing - 
+  3. Sanity Testing - When we test the critical functionality of the application because of lack of time so that is called Sanity Testing.
+  4. Regression Testing - Whenever new changes is comes over the application or any bug fixing is required so we have to test the functionality as well as related functionality of the application so that is called Regression Testing.
+  5. Retesting - When we test any functionality again so that is called Retesting.
+  6. Integration Testing - When we verify the dependencies between two or more modules so that is known as Integration Testing.
+  7. Component Testing - When we verify the each functionality in detail so that is known as Component Testing.
+  8. GUI(Graphical User Interface) Testing - When we verify the look and feel of the application that how it is look like so that is known as GUI Test.
