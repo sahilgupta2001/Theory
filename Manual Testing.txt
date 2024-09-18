@@ -74,7 +74,7 @@
   8. ReOpened - If the bug resurfaces after being marked as closed, it is assigned a status of "ReOpened" and sent back to the development team for further analysis and resolution.
 
 7. What is Deferred ?
-  When developer denied to fix any bug for the time being, they said i will check that bug into the next release just because of low priority issue.
+  When developer denied to fix any bug for the time being, they said i will fix that bug into the next release just because of low priority issue.
 
 8. What is Duplicate ?
   When developer said for any bug it has been already raised incorporate with another bug when that will be fixed, it will fixed by default.
