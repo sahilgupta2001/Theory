@@ -102,3 +102,10 @@
   6. Volume Testing - When we verify the login with some credentails on how many machine we can logged in so that is known as Volume Testing.
   7. Usability Testing - When we verify that our application is how much user friendly for the real users so that is known as Usability Testing.
   8. Accessibility Testing - When we verify the application for those users who is physically challenged to access the application.
+
+11. What is Agile ?
+  A agile is used to make the continous Integration and continous Delivery between testing and development.
+  In Continous Integration, developer integrate their code changes into a shared mainline several times a day.
+  In continous Delivery, every change that passes all tests is automatically released into production.
+
+12. 
