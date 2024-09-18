@@ -108,4 +108,9 @@
   In Continous Integration, developer integrate their code changes into a shared mainline several times a day.
   In continous Delivery, every change that passes all tests is automatically released into production.
 
-12. 
+12. What are the frameworks in agile ?
+  1. Scrum Framework
+  2. Kanban Framework
+  3. Extreme Programming(XP)
+
+13. 
