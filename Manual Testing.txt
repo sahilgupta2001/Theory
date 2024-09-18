@@ -97,7 +97,7 @@
   1. Performance Testing - When we test the performance of the application during the execution of the application flow so that is known as Performance Testing. For the Performance Testing, we used Jmeter Tool.
   2. Stress Testing - When we verify our application behaviour during the long time execution of the flow of the application. For the Stress Testing, we used Jmeter Tool.
   3. Load Testing - When we verify our application behaviour when traffic are increased over the application. For the Load Testing, we used Load Runner Tool.
-  4. Security Testing - When we verify our application we check that from where application can be hacked and data can be theft so that is called Security Testing.
+  4. Security Testing - When we verify our application to check that from where application can be hacked and data can be theft so that is called Security Testing.
   5. Scalability Testing - When traffic are increased and decreased over the application so in that case we verify the behaviour of the application so that is known as Scalability Testing.
   6. Volume Testing - When we verify the login with some credentails on how many machine we can logged in so that is known as Volume Testing.
   7. Usability Testing - When we verify that our application is how much user friendly for the real users so that is known as Usability Testing.
