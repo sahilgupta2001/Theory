@@ -82,7 +82,7 @@
 9. What is Rejected ? 
   If developers during analysis found that defects is genuine or valid or authenticate, then it is automatically assigned a status as "Rejected".
 
-9. What is Functional and Non-Functional Testing ?
+10. What is Functional and Non-Functional Testing ?
   Functional Testing - When we verify the client required functionality only so that is known as Functional Testing.
   1. Unit Testing - Unit Testing always perform by the developer to verify their developed functionality known as Unit Testing.
   2. Smoke/Initial Level/Surface Level/BVT Testing - In this we will verify the happy flow of the application to verify that build is testable for the further level testing or not.
