@@ -113,4 +113,20 @@
   2. Kanban Framework
   3. Extreme Programming(XP)
 
-13. 
+13. What is Sprint ?
+  The collections of some user stories which needs to be completed within a sprint duration.
+  US1 ---\
+  US2 ----> Sprint 1
+  US3 ---/
+  US4 ---\
+  US5 ---/ Sprint 2
+  US6 ---\
+  US7 ---/ Sprint 3
+  US8 ---\
+  US9 ---/ Sprint 4
+
+14. What are the Scrum/Agile Ceremonies ?
+  1. Sprint Planning - This meeting will be happen at the Starting. In this, we will make the plan for the sprint that how many user stories should be cover during the sprint time or what are the resources required.
+  2. Daily Scums - This meeting will be happen at the daily basis. In this, we had a discussion about the daily task that we have done and what we needs to be done for today.
+  3. Sprint Review - This meeting will be happen at the middle of the Sprint. In this, we had a discussion about the current sprint that can be complete this within a time duration or not if we can't so how we can overcome this situation.
+  4. Sprint Retrospective - This meeting will be happen at the last. In this, we had a discussion what goes wrong and what goes good and if we face any challenges so how we can overcome this into the next sprint.
