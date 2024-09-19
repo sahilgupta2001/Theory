@@ -130,3 +130,12 @@
   2. Daily Scums - This meeting will be happen at the daily basis. In this, we had a discussion about the daily task that we have done and what we needs to be done for today.
   3. Sprint Review - This meeting will be happen at the middle of the Sprint. In this, we had a discussion about the current sprint that can be complete this within a time duration or not if we can't so how we can overcome this situation.
   4. Sprint Retrospective - This meeting will be happen at the last. In this, we had a discussion what goes wrong and what goes good and if we face any challenges so how we can overcome this into the next sprint.
+
+15. Who is Scrum Master ?
+  Who leads all the agile ceremonies known as Scrum Master.
+  Roles & Responsibilities -
+  1. Everyone should follow the agile process.
+  2. Every team member should be joined the Scrum Ceremonies.
+  3. Schedule the Scrum Ceremonies.
+  4. Make sure the everyone should get the resolution if someone face any issues.
+  5. Lead the Scrum Ceremonies.
