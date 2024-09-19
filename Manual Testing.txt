@@ -149,4 +149,5 @@
   Burn Down - Work which needs to be completed shown as Burn Down Chart.
 
 18. What is Velocity of the Sprint ?
-  
+  The rate of sprint known as Velocity.
+
