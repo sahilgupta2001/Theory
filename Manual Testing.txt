@@ -146,4 +146,7 @@
 
 17. What is Burn Up and Burn Down Chart ?
   Burn Up - Work which has been completed shown as Burn Up Chart.
-  Burn Down
+  Burn Down - Work which needs to be completed shown as Burn Down Chart.
+
+18. What is Velocity of the Sprint ?
+  
