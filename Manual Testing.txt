@@ -158,3 +158,27 @@
   High Priority and Low Severity - Logo
   Low Priority and High Severity - Location is not picking automatically in case of COD.
   Low Priority and Low Severity - Minor Spelling Mistakes.
+
+20. What is Black Box, White Box and Gray Box Testing ?
+  Black Box Testing - When we verify the functionality of the application without knowing internal structures of the application known as Black Box Testing.
+  Test Case Design Technique - 
+  1. BVA(Boundary Value Analysis)
+  2. Equivilance Portioning Class
+  3. Error Guessing
+  4. State Transition
+  5. Use Case Technique
+  6. Decision Table Technique 
+
+  White Box Testing - White Box Testing will be perform by the developer code or internal structure of the application.
+
+  Gray Box Testing - It is a combination of White and Gray Box Testing. It means we will verify the internal structures of the application as well as outer functionality.
+
+  1. BVA - When we verify the any functionality at the boundary level to verify the negative and positive boundary conditions known as BVA.
+  12,11,13
+  18-50 - 18,17,50,51
+  2. Equivilance Portioning Class - When we have large amount of test data so we will segregate that data into the parts in a way where maximum number of test cases will be cover as well as execution time will be reduce.
+  100 - 1,10,11,20,21,30,31,40,41,50,51,60,61,70,71,80,81,90,91,100
+  3. Error Guessing - Error Guessing technique will be depend on the skills and experience. In this, user will verify the functionality first where maximum number of chances will be occur for the error.
+  4. State Transition - When we verify any functionality with the multiple test data so that is called State Transition.
+  5. User Case Technique - In this technique, we will create the test cases on the basis of use cases.
+  6. Decision Table Technique - 
