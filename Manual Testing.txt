@@ -187,3 +187,13 @@
   Bug - During the testing whatever issues which we found known as Bug.
   Defect - After releasing a product to the end user whatever issues which is found by the end user known as Defect.
   Error - All the compile time issues known as Error.
+
+
+
+
+Verification 
+Validation 
+Difference between Functional and Non-functional Testing
+Test Data
+Test Case
+Positive and Negative Testing
