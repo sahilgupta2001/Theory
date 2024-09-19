@@ -139,3 +139,11 @@
   3. Schedule the Scrum Ceremonies.
   4. Make sure the everyone should get the resolution if someone face any issues.
   5. Lead the Scrum Ceremonies.
+
+16. What is Product Backlog and Sprint Backlog ?
+  Product Backlog - Remaining work into the whole product, which needs to be completed known as Product Backlog.
+  Sprint Backlog - Work which is remaining into the particular sprint known as Sprint Backlog.
+
+17. What is Burn Up and Burn Down Chart ?
+  Burn Up - Work which has been completed shown as Burn Up Chart.
+  Burn Down
