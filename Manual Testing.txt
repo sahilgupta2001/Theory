@@ -151,3 +151,10 @@
 18. What is Velocity of the Sprint ?
   The rate of sprint known as Velocity.
 
+19. What is Priority and Severity ?
+  Priority - How soon bug can be fixed.
+  Severity - Degree of impact of the bug.
+  High Priority and High Severity - Login
+  High Priority and Low Severity - Logo
+  Low Priority and High Severity - Location is not picking automatically in case of COD.
+  Low Priority and Low Severity - Minor Spelling Mistakes.
