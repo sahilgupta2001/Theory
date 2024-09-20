@@ -201,6 +201,10 @@
   1. Staging
   2. Preprod
 
+26. What is User Acceptance Testing(UAT) ?
+  In the User Acceptance Testing(UAT) we will run our application flow for the client to check and when client has accept it the application so that is called UAT.
+
+27. What is System Testing ?
 
 
 
