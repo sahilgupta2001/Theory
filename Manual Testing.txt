@@ -205,7 +205,7 @@
   In the User Acceptance Testing(UAT) we will run our application flow for the client to check and when client has accept it the application so that is called UAT.
 
 27. What is System Testing ?
-
+  When we verify the both hardware and software requirements of the application so that is known as End-to-End Testing.
 
 
 
