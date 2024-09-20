@@ -188,6 +188,11 @@
   Defect - After releasing a product to the end user whatever issues which is found by the end user known as Defect.
   Error - All the compile time issues known as Error.
 
+22. What is Compatability/Responsiveness Testing ?
+  When we verify our application with the different devices or different machines so that is called Compatability Testing.
+
+
+
 
 
 
