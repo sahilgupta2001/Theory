@@ -191,6 +191,9 @@
 22. What is Compatability/Responsiveness Testing ?
   When we verify our application with the different devices or different machines so that is called Compatability Testing.
 
+23. What is Cross Browsing Testing ?
+  When we verify our application with the differnet browsers so that is known as Cross Browsing Technique.
+
 
 
 
