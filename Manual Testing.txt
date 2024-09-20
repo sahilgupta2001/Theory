@@ -194,7 +194,17 @@
 23. What is Cross Browsing Testing ?
   When we verify our application with the differnet browsers so that is known as Cross Browsing Technique.
 
+24. What is Adhoc/Random/Monkey Testing ?
+  It is a informal Testing Technique. In this, we will verify the flow of the application without any requirement by executing the random flow of the application.
 
+25. What are the Test Environment ?
+  1. Staging
+  2. Preprod
+
+26. What is User Acceptance Testing(UAT) ?
+  In the User Acceptance Testing(UAT) we will run our application flow for the client to check and when client has accept it the application so that is called UAT.
+
+27. What is System Testing ?
 
 
 
