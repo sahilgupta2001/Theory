@@ -181,7 +181,7 @@
   3. Error Guessing - Error Guessing technique will be depend on the skills and experience. In this, user will verify the functionality first where maximum number of chances will be occur for the error.
   4. State Transition - When we verify any functionality with the multiple test data so that is called State Transition.
   5. User Case Technique - In this technique, we will create the test cases on the basis of use cases.
-  6. Decision Table Technique - 
+  6. Decision Table Technique - A Black Box Test Design Technique in which test cases are designed to execute the combinations of inputs and/or causes shown in a Decision Table Testing.
 
 21. What is Bug, Defect and Error ?
   Bug - During the testing whatever issues which we found known as Bug.
