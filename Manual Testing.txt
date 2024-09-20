@@ -207,6 +207,15 @@
 27. What is System Testing ?
   When we verify the both hardware and software requirements of the application so that is known as End-to-End Testing.
 
+28. What is Alpha And Beta Testing ?
+  Alpha Testing
+  1. Alpha Testing will be perform beform releasing the product to the end user.
+  2. In the Alpha Testing, we will run the application flow within an organization.
+  Beta Testing
+  1. Beta Testing will be perform after releasing the product to the end user.
+  2. In the Beta Testing, it will be perform at the end user environment.
+
+
 
 
 Verification 
