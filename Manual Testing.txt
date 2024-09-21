@@ -216,8 +216,12 @@
   2. In the Beta Testing, it will be perform at the end user environment.
 
 29. What is Bug Leakage and Bug Release ?
-Bug Leakage - When any bug which is detected into the earlier version and same has been detected into the current version as well so that is called Bug Leakage.
-Bug Release - When we release the product with some set of known bug os that is called Bug Release.
+  Bug Leakage - When any bug which is detected into the earlier version and same has been detected into the current version as well so that is called Bug Leakage.
+  Bug Release - When we release the product with some set of known bug os that is called Bug Release.
+
+30. What is Review ?
+  1. Formal Review
+  2. Informal Review
 
 
 Verification 
