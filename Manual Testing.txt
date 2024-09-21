@@ -231,6 +231,10 @@
   1. Validation is a Dynamic Process.
   2. In this, we will execute our test case as well test plan so that is called Validation.
 
+32. What is Entry and Exit Criteria ?
+  Entry - When we have all the prequisites to the testing known as Entry Criteria.
+  Exit - When testing can be concluded known as Exit Criteria.
+
 
 
 
