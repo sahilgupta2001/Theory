@@ -238,6 +238,8 @@
 33. What is Recovery Testing ?
   When we verify over application that any corrupt data or deleted data that can be restored or not so that is known as Recovery Testing.
 
+34. What is Multilingual Testing ?
+  When we verify the correctness, accuracy and completeness of the data so that is called Multilingual Testing.
 
 
 
