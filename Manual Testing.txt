@@ -223,9 +223,18 @@
   1. Formal Review
   2. Informal Review
 
+31. What is Verification and Validation ?
+  Verification - 
+  1. Verification is a Static Process.
+  2. In this, we will cover the requirements gathering and review and test case designing etc.
+  Validation - 
+  1. Validation is a Dynamic Process.
+  2. In this, we will execute our test case as well test plan so that is called Validation.
 
-Verification 
-Validation 
+
+
+
+
 Difference between Functional and Non-functional Testing
 Test Data
 Test Case
