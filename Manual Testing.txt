@@ -208,14 +208,16 @@
   When we verify the both hardware and software requirements of the application so that is known as End-to-End Testing.
 
 28. What is Alpha And Beta Testing ?
-  Alpha Testing
+  Alpha Testing - 
   1. Alpha Testing will be perform before releasing the product to the end user.
   2. In the Alpha Testing, we will run the application flow within an organization.
-  Beta Testing
+  Beta Testing - 
   1. Beta Testing will be perform after releasing the product to the end user.
   2. In the Beta Testing, it will be perform at the end user environment.
 
-
+29. What is Bug Leakage and Bug Release ?
+Bug Leakage - When any bug which is detected into the earlier version and same has been detected into the current version as well so that is called Bug Leakage.
+Bug Release - When we release the product with some set of known bug os that is called Bug Release.
 
 
 Verification 
