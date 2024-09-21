@@ -241,7 +241,14 @@
 34. What is Multilingual Testing ?
   When we verify the correctness, accuracy and completeness of the data so that is called Multilingual Testing.
 
-
+35. What are the SDLC Models ?
+  1. Waterfall Model
+  2. Spiral Model
+  3. V Model
+  4. Prototype Model
+  5. Agile Model
+  6. Big Bang Model
+  7. Itrative
 
 
 Difference between Functional and Non-functional Testing
