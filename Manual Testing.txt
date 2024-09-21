@@ -235,6 +235,9 @@
   Entry - When we have all the prequisites to the testing known as Entry Criteria.
   Exit - When testing can be concluded known as Exit Criteria.
 
+33. What is Recovery Testing ?
+  When we verify over application that any corrupt data or deleted data that can be restored or not so that is known as Recovery Testing.
+
 
 
 
