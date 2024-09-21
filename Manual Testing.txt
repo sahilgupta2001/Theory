@@ -209,7 +209,7 @@
 
 28. What is Alpha And Beta Testing ?
   Alpha Testing
-  1. Alpha Testing will be perform beform releasing the product to the end user.
+  1. Alpha Testing will be perform before releasing the product to the end user.
   2. In the Alpha Testing, we will run the application flow within an organization.
   Beta Testing
   1. Beta Testing will be perform after releasing the product to the end user.
