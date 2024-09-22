@@ -250,6 +250,27 @@
   6. Big Bang Model
   7. Itrative
 
+36.
+37. What is the difference between Quality Assurance and Quality Control ?
+  Quality Assurance -
+  1. It ensures the prevention of defects in the process used to make software applications.
+  2. It involves Process-Oriented Activities.
+  3. Aim to prevent defects.
+  Ex - Verification 
+  4. It is the technique of managing the quality.
+  5. All team members are responsible for QA.
+  6. QA is responsible for SDLC.
+  7. It is a process to create the deliverables.
+  Quality Control - 
+  1. It executes the program or code to identify the defects in the software application.
+  2. It involves Product-Oriented Activities.
+  3. Aim to identify and improve.
+  Ex - Validation 
+  4. It is a method to verify the quality.
+  5. The testing team is responsible for QC.
+  6. QC is responsible for STLC.
+  7. It is a process to verify the deliverables.
+
 
 Difference between Functional and Non-functional Testing
 Test Data
