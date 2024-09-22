@@ -250,7 +250,24 @@
   6. Big Bang Model
   7. Itrative
 
-36.
+36. What is the difference between Verification and Validation ?
+  Verification - 
+  1. It is a process of confirming whether the software meets it's requirements or not.
+  2. Process of examining/reviewing work product.
+  3. It is a QA activity.
+  4. It is a Static Process performed at compile time.
+  5. Cost and time effective.
+  6. Activities involved in this are testing the application.
+  
+  Validation - 
+  1. It is a process for confirming whether the software meets it's user requirements or not.
+  2. Process of executing a product and examining how it behaves.
+  3. It is a QC Activity.
+  4. It is a Dynamic Process performed at run time.
+  5. It is performed by a QC team or by tester.
+  6. Cost and time taking.
+  7. Activities involved in this are inspections, reviews and walk-throughs.
+
 37. What is the difference between Quality Assurance and Quality Control ?
   Quality Assurance -
   1. It ensures the prevention of defects in the process used to make software applications.
@@ -261,6 +278,7 @@
   5. All team members are responsible for QA.
   6. QA is responsible for SDLC.
   7. It is a process to create the deliverables.
+  
   Quality Control - 
   1. It executes the program or code to identify the defects in the software application.
   2. It involves Product-Oriented Activities.
