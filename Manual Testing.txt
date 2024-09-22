@@ -312,3 +312,18 @@
 
 43. What is Test Scenario ?
   It gives the idea of what we have to test or the testable part of an application is called Test Scenario.
+
+44. What is Test Case ?
+  It is a set of conditions under which tester determines whether an application/software is working correctly or not.
+
+45. What is Test Bed ?
+  An environment configured for testing is called Test Bed. It consists of hardware, software, network configuration.
+
+46. What is Test Suite ?
+  A collection of test cases is called Test Suite.
+
+47. What is Test Data ?
+  It is a document that basically used to test the software program.
+  It is divided into 2 categories -
+  1. Positive test data which is generally given to the system to generate the expected result.
+  2. Negative Test Data which is used to test.
