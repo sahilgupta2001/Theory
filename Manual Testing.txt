@@ -327,3 +327,22 @@
   It is divided into 2 categories -
   1. Positive test data which is generally given to the system to generate the expected result.
   2. Negative Test Data which is used to test.
+
+48. What is Test Stubs ?
+  A test Stub is used in a top-down testing approach and allows testing of the upper levels of code when the lower code levels have not been developed yet. It serves as a 'Called Program' when subprograms are being developed.
+
+49. What is Test Driver ?
+  A test driver is used in a bottom-up testing approach and allows testing of the lower levels of the code and upper code levels have not been developed yet. It serves as a 'Called Program' when main program are being developed.
+
+50. What is the difference between Severity and Priority ?
+  Priority -
+  1. How Prior we need to fix the bug.
+  2. It means the occurrence of defect.
+  3. Decide by developer team.
+  4. Types (Low, Medium, High, Critical)
+
+  Severity - 
+  1. Degree of impact of the bug.
+  2. It means how bad the defect is and what impact it can cause in our application.
+  3. Decide by the testing team.
+  4. Types (Minor, Medium, Major)
