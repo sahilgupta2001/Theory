@@ -309,3 +309,6 @@
 
 42. What is Test Plan ?
   It is a document which contains the plan for all the testing activities.
+
+43. What is Test Scenario ?
+  It gives the idea of what we have to test or the testable part of an application is called Test Scenario.
