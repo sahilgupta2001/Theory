@@ -297,9 +297,9 @@
 
 40. What is Positive and Negative Testing ?
   Positive Testing - 
-  1. It determines whether the system is 
+  1. It determines what the system is supposed to do.
   2. It helps to check the application for justifying the requirements or not.
 
   Negative Testing - 
-  1. It determines whether the system is 
+  1. It determines what the system is not supposed to do.
   2. It helps to find the defects in the application.
