@@ -271,6 +271,9 @@
   6. QC is responsible for STLC.
   7. It is a process to verify the deliverables.
 
+38. What is Static Testing ?
+  It involves in reviewing the documents to identify the defects in the early stages of SDLC.
+
 
 Difference between Functional and Non-functional Testing
 Test Data
