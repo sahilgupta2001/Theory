@@ -303,3 +303,6 @@
   Negative Testing - 
   1. It determines what the system is not supposed to do.
   2. It helps to find the defects in the application.
+
+41. What is Test Strategy ?
+  It is a high level document and is usually developed by the process manager. It's a document that captures the approach about how we go about testing the product and achieving the goals.
