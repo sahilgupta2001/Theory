@@ -306,3 +306,6 @@
 
 41. What is Test Strategy ?
   It is a high level document and is usually developed by the process manager. It's a document that captures the approach about how we go about testing the product and achieving the goals.
+
+42. What is Test Plan ?
+  It is a document which contains the plan for all the testing activities.
