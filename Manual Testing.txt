@@ -346,3 +346,12 @@
   2. It means how bad the defect is and what impact it can cause in our application.
   3. Decide by the testing team.
   4. Types (Minor, Medium, Major)
+
+51. What is Defect Priority and Defect Severity ?
+  Defect Priority - 
+  1. A defect priority is the urgency of the fixing the defect.
+  2. Normally, The defect priority is set on a scale of P0 to P3 with P0 defect having the most urgency to fix.
+
+  Defect Severity - 
+  1. Defect Severity is the severity of the defect impacting the functionality.
+  2. Based on the organization, we can have different levels of defect Severity ranging from minor to critical or show stopper.
