@@ -295,8 +295,11 @@
 39. What is Dynamic Testing ?
   It involves in the execution of code and validates the output with the expected outcome.
 
+40. What is Positive and Negative Testing ?
+  Positive Testing - 
+  1. It determines whether the system is 
+  2. It helps to check the application for justifying the requirements or not.
 
-Difference between Functional and Non-functional Testing
-Test Data
-Test Case
-Positive and Negative Testing
+  Negative Testing - 
+  1. It determines whether the system is 
+  2. It helps to find the defects in the application.
