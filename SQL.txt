@@ -1,1 +1,49 @@
-a
+19. What is SQL..?
+20. What is Primary Key..?
+21. What is Unique key.?
+22. What is foreign key..?
+
+19. What is SQL (Structured query language)
+
+	SQL is used to manipulate the data.
+
+23. Select 
+24. Where 
+25. Order By
+26. Oprators 
+27. TOP
+28. Select Distinct 
+
+29. What is the diffrence between Delete,drop and truncate ..?
+
+	Delete -  Delete command is used to delete whole the record from the table if we used without where clause and if we used with the where clause so it will delete specific record from the table.
+In this case we can rollback the data.
+
+	Truncate - Truncate command is used to delete whole the record from the table but structure will remain the same.
+In case of truncate we can't rollback the data. 
+
+	Drop - Drop command is used to delete whole the data from the table it means it will delete the data as well as structure of the table.
+Incase of drop also we can't rollback the data.
+
+30. What is diffrent database languages -
+
+	1. DML (Data Manipulation language)
+
+		Insert, Update, Delete
+
+	2. DQL (Data Query Language)
+
+		Select
+
+	3. TCL (Transaction control language)
+
+		Commit, Rollback , save
+
+	4. DDL (Data defination language)
+
+		Create, Alter, Drop, truncate
+
+	5. DCL (Data Control Langauge)
+
+		Grant, Revoke
+
