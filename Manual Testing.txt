@@ -152,12 +152,12 @@
   The rate of sprint known as Velocity.
 
 19. What is Priority and Severity ?
-  Priority - How soon bug can be fixed.
+  Priority - How prior we need to fix the bug.
   Severity - Degree of impact of the bug.
-  High Priority and High Severity - Login
-  High Priority and Low Severity - Logo
-  Low Priority and High Severity - Location is not picking automatically in case of COD.
-  Low Priority and Low Severity - Minor Spelling Mistakes.
+  High Priority and High Severity - Issue with login functionality.
+  High Priority and Low Severity - Slight change in logo colour and spelling mistake on company name.
+  Low Priority and High Severity - Application crashing in some very corner case.
+  Low Priority and Low Severity - A spelling mistake in a page not frequently navigated by users.
 
 20. What is Black Box, White Box and Gray Box Testing ?
   Black Box Testing - When we verify the functionality of the application without knowing internal structures of the application known as Black Box Testing.
