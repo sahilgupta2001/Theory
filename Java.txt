@@ -15,4 +15,8 @@
       - String
       - array
 
-2. 
+2. Why is Java not a pure Object-Oriented Programming Language ?
+  Java supports primitive data types - byte, short, int, long, float, double, char, boolean.
+
+3. What is Instance and Local Variable ?
+  Instance Variable - Instance variables are those variables that are accessible by all the methods in the class. They are declared outside the methods and inside the class. These variables describe the properties of an object and remain bound to it at any cost.
