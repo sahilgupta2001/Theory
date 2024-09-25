@@ -2,7 +2,7 @@
   1. Java is a high level,object-oriented programming language that was developed by James Gotling at 1995.
   2. It is platform-independent, meaning that programs written can run on any platform that has a Java Virtual Machine(JVM) installed.
   3. There are two tpes of data types defined in the java - 
-    1. primitive - This type of data is predefined by Java. We just use them to provide the data type for the input. These data types are defined as below - 
+    i. primitive - This type of data is predefined by Java. We just use them to provide the data type for the input. These data types are defined as below - 
       - byte
       - short
       - int
@@ -11,7 +11,7 @@
       - double
       - char
       - boolean
-    2. non-primitive - This type of data type can be customized by the user. These are as below -
+    ii. non-primitive - This type of data type can be customized by the user. These are as below -
       - String
       - array
 
@@ -20,3 +20,38 @@
 
 3. What is Instance and Local Variable ?
   Instance Variable - Instance variables are those variables that are accessible by all the methods in the class. They are declared outside the methods and inside the class. These variables describe the properties of an object and remain bound to it at any cost.
+Example -
+class Athlete {
+  public string athleteName;
+  public double athletespeed;
+  public int athleteage;
+}
+
+  Local Variable - Local variables are those variables present within a block, function, or constructor and can be accessed only inside them. Whenever a local Variable is declared inside a method, the other class methods don't have any knowledge about the local Variable.
+Example - 
+public void athlete() {
+  String athleteName;
+  double athletespeed;
+  int athleteage;
+}
+
+Instance vs Local Variables
+class Athlete {
+  public String athleteName;
+  public double athletespeed;
+  public int athleteage;
+
+  public Athlete(name,speed,age) {
+    this.athleteName = name;
+    this.athletespeed = speed;
+    this.athleteage = age;
+  }
+
+  public void athleteRun() {
+    int speed = 100;
+    System.out.println("Athlete runs at" + speed + "km/hr");
+  }
+}
+
+In class Athlete, athleteName, athletespeed, athleteage are instance variables.
+name, speed, age and int speed = 100 are the local variables.
