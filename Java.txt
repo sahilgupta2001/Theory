@@ -114,3 +114,11 @@ The only condition to run that byte code is for the machine to have a runtime en
   JVM - 
 1. JVM stands for Java Virtual Machine.
 2. It is a virtual machine that executes the Java bytecode.
+
+11. What are the Memory Allocations available in Java ?
+  Java has five significant types of memory allocations -
+1. Class Memory - Class Area stores per-class structures such as the runtime constant pool, field, method data and the code for methods.
+2. Heap Memory - It is the runtime data area in which the memory is allocated to the objects.
+3. Stack Memory - Java Stack stores frames. It holds local variables and partial results, and plays a part in method invocation and return.
+4. Program Counter-Memory - PC(Program Counter) register contains the address of the Java Virtual Machine instruction currently being executed.
+5. Native Method Stack Memory - It contains all the native method used in the application.
