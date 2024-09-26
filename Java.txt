@@ -104,3 +104,13 @@ The only condition to run that byte code is for the machine to have a runtime en
 9. What is JVM ?
   JVM stands for Java Virtual Machine. It is an abstract machine that provides the runtime environment in which java programs are executed. The JVM interprets Java bytecode and translates it into machine-specific code.
 
+10. What is the difference between JDK, JRE, JVM ?
+  JDK - 
+1. JDK stands for Java Development Kit.
+2. It is a software development kit that includes tools for developing, compiling, and debugging Java programs.
+  JRE - 
+1. JRE stands for Java Runtime Environment.
+2. It is a software environment that provides the necessary runtime libraries components for running java program.
+  JVM - 
+1. JVM stands for Java Virtual Machine.
+2. It is a virtual machine that executes the Java bytecode.
