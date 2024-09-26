@@ -100,3 +100,7 @@ The only condition to run that byte code is for the machine to have a runtime en
 4. Robust - Java is a strong programming language as it uses strong memory management. The concepts like Automatic Garbage Collection, Exception Handling, etc make it more robust.
 5. Portable - Java supports read-once-write anywhere approach. We can execute the java program on every machine.
 6. Secured - Java is secured because it doesn't use explicit pointers. Java also provides the concept of bytecode and exception handling which makes it more secured.
+
+9. What is JVM ?
+  JVM stands for Java Virtual Machine. It is an abstract machine that provides the runtime environment in which java programs are executed. The JVM interprets Java bytecode and translates it into machine-specific code.
+
