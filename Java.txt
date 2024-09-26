@@ -78,6 +78,25 @@ equals()
 2. This operator is used for comparing addresses i.e., checks if both the objects are pointing to the same memory location.
 3. It cannot be modified. They always compare the HashCode.
 
-6. What is Java a platform independent language ?
+6. Why is Java a platform independent language ?
   Java language are developed so that it does not depend on any hardware or software because the compiler compiles the code and then converts it to platform-independent byte code which can be run on multiple systems.
 The only condition to run that byte code is for the machine to have a runtime environment(JRE) installed in it.
+
+7. What is Method ?
+  1. Method is the part of the class where we put our logic.
+  2. Method are having their own body.
+  3. We cannot create methods inside a method.
+  4. There are four types of methods defined - 
+    i. parameterized
+    ii. non-paremeterized
+    iii. return type
+    iv. non-return type
+
+8. What are the features of Java ?
+  Java has several features that make it a popular programming language. Some of these features are east to learn, OOPs, Platform Independence, Robust, Portable and Secured.
+1. Easy - Java is a language which is considered easy to learn.
+2. OOPs - OOPs stands for Object-Oriented Programming Language. OOPs signifies that, in java, everything is considered an object.
+3. Platform Independence - Java is not compiled into a platform-specific machine. Instead, it is compiled into platform independence bytecode. This code is interpreted by the virtual machine on which the platform runs.
+4. Robust - Java is a strong programming language as it uses strong memory management. The concepts like Automatic Garbage Collection, Exception Handling, etc make it more robust.
+5. Portable - Java supports read-once-write anywhere approach. We can execute the java program on every machine.
+6. Secured - Java is secured because it doesn't use explicit pointers. Java also provides the concept of bytecode and exception handling which makes it more secured.
