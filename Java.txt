@@ -55,3 +55,14 @@ class Athlete {
 
 In class Athlete, athleteName, athletespeed, athleteage are instance variables.
 name, speed, age and int speed = 100 are the local variables.
+
+4. What do you mean by data encapsulation ?
+  1. Data encapsulation is an object-oriented programming concept of hiding the data attributes and their behaviours in a single unit.
+  2. It helps developers to follow modularity while developing software by ensuring that each object is independent of other objects by having its own methods, attributes, and functionalities.
+  3. It is used for the security of the private properties of an object and hence serves the purposes of data hiding.
+class {
+  data members(properties)
+      +
+  methods(behaviour)
+}
+
