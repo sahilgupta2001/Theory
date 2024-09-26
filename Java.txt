@@ -93,7 +93,7 @@ The only condition to run that byte code is for the machine to have a runtime en
     iv. non-return type
 
 8. What are the features of Java ?
-  Java has several features that make it a popular programming language. Some of these features are east to learn, OOPs, Platform Independence, Robust, Portable and Secured.
+  Java has several features that make it a popular programming language. Some of these features are easy to learn, OOPs, Platform Independence, Robust, Portable and Secured.
 1. Easy - Java is a language which is considered easy to learn.
 2. OOPs - OOPs stands for Object-Oriented Programming Language. OOPs signifies that, in java, everything is considered an object.
 3. Platform Independence - Java is not compiled into a platform-specific machine. Instead, it is compiled into platform independence bytecode. This code is interpreted by the virtual machine on which the platform runs.
@@ -122,3 +122,6 @@ The only condition to run that byte code is for the machine to have a runtime en
 3. Stack Memory - Java Stack stores frames. It holds local variables and partial results, and plays a part in method invocation and return.
 4. Program Counter-Memory - PC(Program Counter) register contains the address of the Java Virtual Machine instruction currently being executed.
 5. Native Method Stack Memory - It contains all the native method used in the application.
+
+12. What are the difference between Heap and Stack Memory in Java and how Java utilizes it.
+  Stack memory is the portion of memory that was assigned to every individual program, and it is fixed.
