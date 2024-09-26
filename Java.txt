@@ -66,3 +66,18 @@ class {
   methods(behaviour)
 }
 
+5. What are the difference between equals() and equality operator(==) ?
+  Difference b/w equals() and equality operator(==)
+equals()
+1. This is a method defined in the object class.
+2. This method is used for checking the equality of contents between two objects as per the specified business logic.
+3. The equals() method is present in the object class, so we can override our custom equals() method in the custom class, for object comparison.
+
+==(equality operator)
+1. It is a binary operator in Java.
+2. This operator is used for comparing addresses i.e., checks if both the objects are pointing to the same memory location.
+3. It cannot be modified. They always compare the HashCode.
+
+6. What is Java a platform independent language ?
+  Java language are developed so that it does not depend on any hardware or software because the compiler compiles the code and then converts it to platform-independent byte code which can be run on multiple systems.
+The only condition to run that byte code is for the machine to have a runtime environment(JRE) installed in it.
