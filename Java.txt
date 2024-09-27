@@ -125,3 +125,9 @@ The only condition to run that byte code is for the machine to have a runtime en
 
 12. What are the difference between Heap and Stack Memory in Java and how Java utilizes it.
   Stack memory is the portion of memory that was assigned to every individual program, and it is fixed.
+  Heap Memory is the portion that was not allocated to the Java Program but it will be available for use by the Java Program when it is required, mostly during the runtime of the program.
+Java Utilizes this memory as - 
+When we write a Java Program then all the variables, methods, etc are stored in the stack memory.
+And when we create any object in the Java Program then that object was created in the heap Memory. And it was referenced from the Stack Memory.
+Main and PrintArray is the method that will be available in the stack area and as well as the variables declared that will also be in the stack area.
+And the object(Integer Array of Size 10) we have created, will be available in the Heap area because that space will be allocated to the program during runtime.
