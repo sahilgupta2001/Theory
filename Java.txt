@@ -189,4 +189,69 @@ For example, In the class, simulating the collection of the student in a college
 24. Define Wrapper Classes in Java.
   In java, when you declare primitive data types, then wrapper classes are responsible for converting them into objects(Reference types).
 
-25.
+25. What is the singleton class in Java ? How to implement a singleton class ?
+  A class that can possess only one object at a time is called a singleton class. To implement a singleton class steps to be followed - 
+1. Make sure that the class has only one object.
+2. Give global access to that object.
+
+26. Can you implement pointers in a Java Program ?
+  Java Virtual Machine takes care of memory management implicity, Java primary motto was to keep programming simple. So, accessing memory directly through pointers is not a recommended action. Hence,pointers are eliminated in Java.
+
+27. Explain Java String Pool.
+  A collections of strings in Java Heap memory is referred to as java string pool. In case, you can try to create new String Object. JVM first checks the presence of the object in the pool. If available, the same object reference is shared with the variable; else a new object is created.
+
+28. What is Final Keyword in Java ?
+  Using the final keyword means that the value can't be modified in the future.
+It can be used with variable,methods and classes.
+Example - 
+final int speedlimit = 90;  //final variable
+final void run() {
+  //final method
+  System.out.println("running");
+}
+final class Bike {
+  // final class
+}
+
+Questions based on this line - 
+public static void main(String[] args)
+where,
+public - access modifier
+static - keyword
+void - return type
+main() - method name
+String - String class
+args - array of string objects
+
+29. What is the purpose of main() method in Java ?
+  The main method is the entry point of an executable program; it is where the program control starts and ends.
+
+30. What is the return type of the main() method ?
+  The return type of the main method in java is void. This means that the main method doesn't return any value. It is declared with the void keyword.
+
+31. Why is the main() method declared static ?
+  It allows the method to be called without creating an instance of the class in which it is defined.
+
+32. Can we use a different name for the main() method, like start() ?
+  No, because JVM call the method with the name main() only.
+
+33. Does the order the public and static declaration matter in main() method ?
+  No, the order of the public and static modifiers in the main() method declaration doesn't matter. Both public static and static public are valid and interchangeable.
+public static void main(String[] args)
+static public void main(String[] args)
+
+34. Can we declare the main() method as final ?
+  Yes, we can declare the main() method as final in Java. The compiler does not throw any error.
+
+35. Can we run a Java program without the main() method ?
+  Java 7 and newer versions don't allow this because JVM checks the presence of the main() method before initializing the class.
+
+36. Can you overload the main() method ?
+  Yes, we can overload the main() method. We can write more than one public static void main() method by changing the arguments.
+Example - 
+public static void main(String[] args)
+public static void main(String[] name)
+public static void main(int[] name)
+
+37. Can we override the main() method ?
+  We cannot override main() method because a static method cannot be overridden.
