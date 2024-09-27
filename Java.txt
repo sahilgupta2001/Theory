@@ -1,4 +1,4 @@
--1. What is Java and types of data type ?
+1. What is Java and types of data type ?
   1. Java is a high level,object-oriented programming language that was developed by James Gosling at 1995.
   2. It is platform-independent, meaning that programs written can run on any platform that has a Java Virtual Machine(JVM) installed.
   3. There are two tpes of data types defined in the java - 
@@ -166,4 +166,6 @@ Now for the question : Is java a completely OOPL ? we can say that - Java is not
 18. Is delete, next, main, exit or null keyword in Java ?
   No
 
-19.
+19. What if I write static public void instead of public static void ?
+  The program compiles and runs correctly because the order of specifier doesn't matter in Java.
+
