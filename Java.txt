@@ -169,3 +169,12 @@ Now for the question : Is java a completely OOPL ? we can say that - Java is not
 19. What if I write static public void instead of public static void ?
   The program compiles and runs correctly because the order of specifier doesn't matter in Java.
 
+20. What is the default value of the local variables ?
+  Local variables is not initialized by the default value, neither primitive types nor object references.
+
+21. What are the various access specifiers in Java ?
+  In java, access specifiers are keyword which is used to define the access scope of the class, methods or variable. There are four types of access specifiers are -
+1. Public - The public classes, methods or variables which are defined as public, which can be assigned by any class or method.
+2. Protected - Protected can be accessed by the class of the same package, or sub-class in the class or within the same class.
+3. Default - Default are accessed within the package only. By default, all the classes, methods and variables are of default scope.
+4. Private - The private class, method or variables defined as private can be accessed within the class only.
