@@ -156,3 +156,10 @@ Now for the question : Is java a completely OOPL ? we can say that - Java is not
 16. What are the difference between the Java Platform and other platforms ?
   1. Java is the software based platform whereas other platforms may be the hardware or software based platform.
   2. Java is executed on the top of other hardware platform whereas other platform can only have the hardware components.
+
+17. What is ClassLoader ?
+  Classloader is the subsystem of Java Virtual Machine(JVM) which is used for load class files. Whenever we run the Java Program, it is loaded first by the classloader. There are three built-in classloader -
+1. BootStrap ClassLoader - This is the first classloader which is a superclass of the extension classloader. It loads the rt.jar file which contails all the class files of JSE like java.lang package classes etc.
+2. Extension Classloader - This is the class classloader of the bootstrap classloader and parent classloader of the System Classloader.
+3. System/Application Classloader - This is the child classloader of the extension classloader. It loads the class files from the classpath.
+
