@@ -178,3 +178,8 @@ Now for the question : Is java a completely OOPL ? we can say that - Java is not
 2. Protected - Protected can be accessed by the class of the same package, or sub-class in the class or within the same class.
 3. Default - Default are accessed within the package only. By default, all the classes, methods and variables are of default scope.
 4. Private - The private class, method or variables defined as private can be accessed within the class only.
+
+22. What is the purpose of static methods and variables ?
+  The methods or variables defined as static are shared among all the objects of the class. The static is the part of the class and not of the object. The static variable are stored in the class area, and we do not need to create the object to access such variables. Therefore, static is used in the case, where we need to define variables or methods which are common to all the objects of the class.
+For example, In the class, simulating the collection of the student in a college, the name of the college is the common attribute to all the students. Therefore, the college name will be defined as static.
+
