@@ -1,5 +1,5 @@
 1. What is Java and types of data type ?
-  1. Java is a high level,object-oriented programming language that was developed by James Gotling at 1995.
+  1. Java is a high level,object-oriented programming language that was developed by James Gosling at 1995.
   2. It is platform-independent, meaning that programs written can run on any platform that has a Java Virtual Machine(JVM) installed.
   3. There are two tpes of data types defined in the java - 
     i. primitive - This type of data is predefined by Java. We just use them to provide the data type for the input. These data types are defined as below - 
@@ -146,3 +146,7 @@ And the object(Integer Array of Size 10) we have created, will be available in t
   It is not wrong if we claim that Java is the complete object oriented programming language because everything in Java is under the classes and we can access them by creating the objects.
 But we can even say that Java is not a complete object oriented programming language because it has the support of primitive data types like byte,short,int etc.
 Now for the question : Is java a completely OOPL ? we can say that - Java is not a pure object oriented programming language, because it has direct access to primitive data types and these primitive data types don't belong to the Integer classes.
+
+14. What is JIT Compiler ?
+  Just-In-Time Compiler - It is used to improve performance. JIT compiler part of the bytecode that has same functionality at the same time, and hence reduce the amount of time need for compilation. Hence the "compiler" refers to the translator for the instruction set of the Java Virtual Machine to the instruction set of the specific cpu.
+
