@@ -129,5 +129,20 @@ The only condition to run that byte code is for the machine to have a runtime en
 Java Utilizes this memory as - 
 When we write a Java Program then all the variables, methods, etc are stored in the stack memory.
 And when we create any object in the Java Program then that object was created in the heap Memory. And it was referenced from the Stack Memory.
+Example - 
+class Main {
+  public void
+printarray(int[] array) {
+    for(int i : array) 
+      System.out.println(i);}
+  public static void main(String[] args){
+    int[] array = new int[10];
+    printarray(array);
+}}
 Main and PrintArray is the method that will be available in the stack area and as well as the variables declared that will also be in the stack area.
 And the object(Integer Array of Size 10) we have created, will be available in the Heap area because that space will be allocated to the program during runtime.
+
+13. Can Java be said to be the Complete OOL ?
+  It is not wrong if we claim that Java is the complete object oriented programming language because everything in Java is under the classes and we can access them by creating the objects.
+But we can even say that Java is not a complete object oriented programming language because it has the support of primitive data types like byte,short,int etc.
+Now for the question : Is java a completely OOPL ? we can say that - Java is not a pure object oriented programming language, because it has direct access to primitive data types and these primitive data types don't belong to the Integer classes.
