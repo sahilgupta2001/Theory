@@ -150,3 +150,6 @@ Now for the question : Is java a completely OOPL ? we can say that - Java is not
 14. What is JIT Compiler ?
   Just-In-Time Compiler - It is used to improve performance. JIT compiler part of the bytecode that has same functionality at the same time, and hence reduce the amount of time need for compilation. Hence the "compiler" refers to the translator for the instruction set of the Java Virtual Machine to the instruction set of the specific cpu.
 
+15. What is the platform ?
+  A Platform is the hardware or software environment in which a piece of software is executed. There are two types of platform, software based and hardware based platform. Java provides software based platform.
+
