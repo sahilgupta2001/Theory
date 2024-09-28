@@ -6,3 +6,12 @@
 1. OOPs helps users to understand the software easily, although they don't know the actual implementation.
 2. With OOPs, the readability, understandability, and maintainability of the code increase multifold.
 3. Even very big software can be easily written and managed easily using OOPs.
+
+3. What are some major Object Oriented Programming languages ?
+  The programming languages that use and follow the Object-Oriented Programming paradigm or OOPs, are known as Object-Oriented Programming Languages. Some of the major Object-Oriented Programming languages include -
+1. Java
+2. C++
+3. JavaScript 
+4. Python
+5. PHP
+and many more
