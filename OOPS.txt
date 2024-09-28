@@ -15,3 +15,10 @@
 4. Python
 5. PHP
 and many more
+
+4. What are some other programming paradigms other than OOPs ?
+  Programming 
+
+5. What is meant by Structured Programming ?
+  Structured Programming refers to the method of programming which consists of a completely structured control flow. Here structure refers to a block, which contains a set of rules, and has a definitive control flow, such as (if/then/else), (while and for), block structures, and subroutines.
+Nearly all programming paradigms include Structured programming, including the OOPs model.
