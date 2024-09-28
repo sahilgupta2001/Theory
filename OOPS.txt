@@ -38,3 +38,6 @@ Nearly all programming paradigms include Structured programming, including the O
 4. OOPs also helps to hide the unnecessary details with the help of Data Abstraction.
 5. OOPs, are based on a bottom-up approach, unlike the Structural programming paradigm, which uses a top-down approach.
 6. Polymorphism offers a lot of flexibility in OOPs.
+
+8. Why is OOPs so popular ?
+  OOPs programming paradigm is considered as a better style of programming. Not only it helps in writing a complex piece of code easily, but it also allows users to handle and maintain them easily as well. Not only that, the main pillar of OOPs - Data Abstraction, Encapsulation, Inheritance, and Polymorphism, makes it easy for programmers to solve complex scenarios. As a result of these, OOPs is so popular.
