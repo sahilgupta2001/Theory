@@ -22,3 +22,10 @@ and many more
 5. What is meant by Structured Programming ?
   Structured Programming refers to the method of programming which consists of a completely structured control flow. Here structure refers to a block, which contains a set of rules, and has a definitive control flow, such as (if/then/else), (while and for), block structures, and subroutines.
 Nearly all programming paradigms include Structured programming, including the OOPs model.
+
+6. What are the main features of OOPs ?
+  OOPs or Object-Oriented Programming mainly comprises of the four features -
+1. Inheritance
+2. Data Encapsulation 
+3. Polymorphism 
+4. Data Abstraction
