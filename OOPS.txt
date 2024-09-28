@@ -1,2 +1,8 @@
 1. What is meant by the term OOPs ?
   OOPs refers to Object-Oriented Programming. It is the programming paradigm that is defined using objects. Objects can be considered as real-world instances of entities like class, that have some characteristics and behaviours.
+
+2. What is the need for OOPs ?
+  There are many reasons why OOPs is mostly preferred, but the most important among them are -
+1. OOPs helps users to understand the software easily, although they don't know the actual implementation.
+2. With OOPs, the readability, understandability, and maintainability of the code increase multifold.
+3. Even very big software can be easily written and managed easily using OOPs.
