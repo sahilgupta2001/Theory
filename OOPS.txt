@@ -61,3 +61,5 @@ Encapsulation can also be defined in two different ways :
   Polymorphism is composed of two words - "poly" which means "many" and "morph" which means "shapes". Therefore polymorphism refers to something that has many shapes.
 In OOPs, Polymorphism refers to the process by which some code, data, method or object behaves differently under different circumstances. Compile time polymorphism and Run time polymorphism are the two types of polymorphisms in OOPs languages.
 
+13. What is Compile Time Polymorphism ? How is different from Run Time Polymorphism ?
+  Compile-Time Polymorphism - Com
