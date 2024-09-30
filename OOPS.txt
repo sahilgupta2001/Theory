@@ -56,3 +56,8 @@ For example, a specific car.
 Encapsulation can also be defined in two different ways :
 1. Data Hiding : Encapsulation is the process of hiding unwanted information such as restricting access to any member of an object.
 2. Data Binding : Encapsulation is the process of binding data members and methods together as a whole, as a class.
+
+12. What is Polymorphism ?
+  Polymorphism is composed of two words - "poly" which means "many" and "morph" which means "shapes". Therefore polymorphism refers to something that has many shapes.
+In OOPs, Polymorphism refers to the process by which some code, data, method or object behaves differently under different circumstances. Compile time polymorphism and Run time polymorphism are the two types of polymorphisms in OOPs languages.
+
