@@ -105,3 +105,10 @@ class Test {
 16. What is Abstraction ?
   Abstraction is the method of hiding unnecessary details from the necessary ones. It is one of the main features of OOPs.
 For example, consider a car. You only need to know how to run a car and not how the wires are connected inside it. This is obtained using Abstraction.
+
+17. How much memory does a class occupy ?
+  Classes do not consume memory. They are just a blueprint based on which objects are created. Now when the objects are created, they actually initialize the class members and methods and therefore consume memory.
+
+18. Is it always necessary to create objects from class ?
+  No. An object is necessary to be created when base class has non-static methods, but when class has static methods, then objects is not necessary to be created. You can call class method directly in this class, using the class name.
+
