@@ -24,6 +24,8 @@ Behaviour also known as the functions, procedures or methods.
 3. JavaScript 
 4. Python
 5. PHP
+6. Go
+7. Dart
 and many more
 
 4. What are some other programming paradigms other than OOPs ?
@@ -154,3 +156,108 @@ class ABC {
 21. What is a copy constructor ?
   Copy Constructor is a type of constructor, whose purpose is to copy an object to another. What it means is that a copy constructor will clone an object and its values, into another object, is provided that both the objects are of the same class.
 
+22. What is a destructor ?
+  Contrary to constructors, which initialize objects and specify space for them, Destructors are also special methods. But destructors free up the resources and memory occupied by an object. Destructors are automatically called when an object is being destroyed.
+
+23. Are class and structure the same? If not, what's the difference between a class and a structure ?
+  No, class and structure are not the same. Though they appear to be similar, they have differences that make them apart. For example, the structure is saved in the stack memory, whereas the class is saved in the heap memory. Also, Data Abstraction cannot be achieved with the help of structure, but with class, Abstraction is majorly used.
+
+24. Explain Inheritance with an example ?
+  Inheritance is one of the major features of object-oriented programming, by which an entity inherits some characteristics and behaviors of some other entity and makes them their own. Inheritance helps to improve and facilitate code reuse.
+Let me explain to you with a common example. Let's take three different vehicles - a car, truck, or bus. These three are entirely different from one another with their own specific characteristics and behavior. But. in all three, you will find some common elements, like steering wheel, accelerator, clutch, brakes, etc. Though these elements are used in different vehicles, still they have their own features which are common among all vehicles. This is achieved with inheritance. The car, the truck, and the bus have all inherited the features like steering wheel, accelerator, clutch, brakes, etc, and used them as their own. Due to this, they did not have to create these components from scratch, thereby facilitating code reuse.
+
+25. Are there any limitations of Inheritance ?
+  Yes, with more powers comes more complications. Inheritance is a very powerful feature in OOPs, but it has some limitations too. Inheritance needs more time to process, as it needs to navigate through multiple classes for its implementation. Also, the classes involved in Inheritance - the base class and the child class, are very tightly coupled together. So if one needs to make some changes, they might need to do nested changes in both classes. Inheritance might be complex for implementation, as well. So if not correctly implemented, this might lead to unexpected errors or incorrect outputs.
+
+26. What are the various types of Inheritance ?
+  The various types of inheritance include:
+1. Single inheritance
+2. Multiple inheritances
+3. Multi-level inheritance
+4. Hierarchical inheritance
+5. Hybrid inheritance
+
+27. What is a subclass ?
+  The subclass is a part of Inheritance. The subclass is an entity, which inherits from another class. It is also known as the child class.
+
+28. Define a superclass ?
+  Superclass is also a part of Inheritance. The superclass is an entity, which allows subclasses or child classes to inherit from itself.
+
+29. What is an interface ?
+  An interface refers to a special type of class, which contains methods, but not their definition. Only the declaration of methods is allowed inside an interface. To use an interface, you cannot create objects. Instead, you need to implement that interface and define the methods for their implementation. 
+
+30. What is meant by static polymorphism ?
+  Static Polymorphism is commonly known as the Compile time polymorphism, refers to the types of polymorphism that happens at the compile time. What it means is that compiler decided what shape or value has to be taken by the entity. Static or Compile time Polymorphism can be achieved through Method overloading or operator overloading.
+
+31. What is meant by dynamic polymorphism ?
+  Dynamic Polymorphism or Runtime polymorphism refers to the type of Polymorphism that happens at the runtime. What it means is that it cannot be decided by the compiler. what shape or value has to be taken during the execution. The dynamic or runtime polymorphism can be achieved with the help of method overriding.
+
+32. What is the difference between overloading and overriding ?
+  Overloading is a compile-time polymorphism feature in which an entity has multiple implementations with the same name. For example, Method overloading and Operator overloading.
+Overriding is a runtime polymorphism feature in which an entity has the same name, but its implementation changes during execution. For example, Method overriding.
+
+33. How is data abstraction accomplished ? 
+  Data abstraction is accomplished with the help of abstract methods or abstract classes.
+
+34. What is an abstract class ?
+  An abstract class is a special class containing abstract methods. The significance of abstract class is that the abstract methods inside it are not implemented and only declared. So as a result, when a subclass inherits the abstract class and needs to use its abstract methods, they need to define and implement them.
+
+35. How is an abstract class different from an interface ?
+  Interface and abstract classes both are special types of classes that contain only the methods declaration and not their implementation. But the interface is entirely different from an abstract class. The main difference between the two is that when an interface is implemented, the subclass must define all its methods and provide its implementation. Whereas in object-oriented programming, when a subclass inherits from an abstract class with abstract methods, the subclass is generally required to provide concrete implementations for all of those abstract methods in the abstract class unless the subclass itself is declared as abstract.
+Also, an abstract class can contain abstract methods as well as non-abstract methods.
+
+36. What are access specifiers and what is their significance ?
+
+
+37. What is an exception ?
+  Exception is a mechanism where we find that our program was terminated because of an unexpected failures.
+
+Exception can be devided into two types - 
+1. Compile-time exception
+2. run-time exception
+so we need to handle the exception through exception handling concept.
+
+It can be done in the following ways - 
+1. try
+2. catch
+3. throw
+4. throws
+5. finally
+
+38. What is meant by exception handling ?
+  Exception handling is the mechanism for identifying the undesirable states that the program can reach and specifying the desirable outcomes of such states.
+Try-catch is the most common method used for handling exceptions in the program.
+
+39. What is meant by Garbage Collection in OOPs world ?
+  Object-oriented programming revolves around entities like objects. Each object consumes memory and there can be multiple objects of a class. So if these objects and their memories are not handled properly, then it might lead to certain memory-related errors and the system might fail.
+Garbage collection refers to this mechanism of handling the memory in the program. Through garbage collection, the unwanted memory is freed up by removing the objects that are no longer needed.
+
+40. Can we run a Java application without implementing the OOPs concept?
+No. Java applications are based on Object-oriented programming models or OOPs concept, and hence they cannot be implemented without it.
+However, on the other hand, C++ can be implemented without OOPs, as it also supports the C-like structural programming model.
+
+41. What is the difference between throw and throws ?
+42. What are the advantages and disadvantages of OOPs ?
+  Advantages of OOPs
+1. OOPs is very helpful in solving very complex level of problems.
+2. Highly complex programs can be created, handled, and maintained easily using object-oriented programming.
+3. OOPs, promote code reuse, thereby reducing redundancy.
+4. OOPs also helps to hide the unnecessary details with the help of Data Abstraction.
+5. OOPs, are based on a bottom-up approach, unlike the Structural programming paradigm, which uses a top-down approach.
+6. Polymorphism offers a lot of flexibility in OOPs.
+
+  Disadvantages of OOPs
+1. Proper planning is required.
+2. Program design is tricky.
+3. Programmer should be well skilled.
+4. Classes tend to be overly generalized.
+
+43. What are the limitations of OOPs ?
+  Limitations of OOPs are - 
+1. Require intensing testing process.
+2. Solving problems takes more time as compared to Procedure Oriented Programming.
+3. Not suitabe for small code.
+4. In certian scenarios, these programs can consume a large amount of memory.
+5. Takes more time to solve problems.
+
+44. 
