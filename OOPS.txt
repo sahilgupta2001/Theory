@@ -150,3 +150,7 @@ class ABC {
     x=abc.x;
   }
 }
+
+21. What is a copy constructor ?
+  Copy Constructor is a type of constructor, whose purpose is to copy an object to another. What it means is that a copy constructor will clone an object and its values, into another object, is provided that both the objects are of the same class.
+
