@@ -62,4 +62,5 @@ Encapsulation can also be defined in two different ways :
 In OOPs, Polymorphism refers to the process by which some code, data, method or object behaves differently under different circumstances. Compile time polymorphism and Run time polymorphism are the two types of polymorphisms in OOPs languages.
 
 13. What is Compile Time Polymorphism ? How is different from Run Time Polymorphism ?
-  Compile-Time Polymorphism - Com
+  Compile-Time Polymorphism - Compile-Time Polymorphism, also known as Static Polymorphism refers to the type of polymorphism that happen at the compile time. What it means is that compile decide what shape or value has to be taken by the entity.
+  Run-Time Polymorphism - Run-Time Polymorphism, also known as Dynamic Polymorphism refers to the type of polymorphism that happen at the run time. What it means is that compile doesn't decide. What shape or value has to be taken depend on the run time.
