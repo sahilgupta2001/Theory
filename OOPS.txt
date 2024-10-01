@@ -89,3 +89,5 @@ class Test {
 1. Compile Time Polymorphism - C++ supports compile-time polymorphism with the help of features like templates, function overloading, and default arguments.
 2. Runtime Polymorphism - C++ supports runtime polymorphism with the help of features like virtual functions.
 
+15. What is meant by Inheritance ?
+  In Object-Oriented Programming, Inheritance is the mechanism by which an object or class(referred to as a child) is created using the definition of another object or class(referred to as child). Inheritance not only helps to keep the implementation simpler but also helps to facilitate code reuse.
