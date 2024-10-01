@@ -1,3 +1,13 @@
+Let's get Started
+for example, if we consider a car, then based on the OOPs model - 
+- Class = A specific car model, such as Audi A4, BMW I8, Maruti Suzuki Vitara Brezza, etc.
+- Object = A specific car of any model, like the car you own
+- Characteristics = What is the color of your car? what is the classis number of ypur car? etc
+- behaviour = How to start the car? How to change the gear of the car? etc.
+Characteristics also known as data, attributes, or properties.
+Behaviour also known as the functions, procedures or methods.
+
+
 1. What is meant by the term OOPs ?
   OOPs refers to Object-Oriented Programming. It is the programming paradigm that is defined using objects. Objects can be considered as real-world instances of entities like class, that have some characteristics and behaviours.
 
@@ -91,3 +101,7 @@ class Test {
 
 15. What is meant by Inheritance ?
   In Object-Oriented Programming, Inheritance is the mechanism by which an object or class(referred to as a child) is created using the definition of another object or class(referred to as child). Inheritance not only helps to keep the implementation simpler but also helps to facilitate code reuse.
+
+16. What is Abstraction ?
+  Abstraction is the method of hiding unnecessary details from the necessary ones. It is one of the main features of OOPs.
+For example, consider a car. You only need to know how to run a car and not how the wires are connected inside it. This is obtained using Abstraction.
