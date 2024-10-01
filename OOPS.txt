@@ -167,7 +167,11 @@ class ABC {
 Let me explain to you with a common example. Let's take three different vehicles - a car, truck, or bus. These three are entirely different from one another with their own specific characteristics and behavior. But. in all three, you will find some common elements, like steering wheel, accelerator, clutch, brakes, etc. Though these elements are used in different vehicles, still they have their own features which are common among all vehicles. This is achieved with inheritance. The car, the truck, and the bus have all inherited the features like steering wheel, accelerator, clutch, brakes, etc, and used them as their own. Due to this, they did not have to create these components from scratch, thereby facilitating code reuse.
 
 25. Are there any limitations of Inheritance ?
-  Yes, with more powers comes more complications. Inheritance is a very powerful feature in OOPs, but it has some limitations too. Inheritance needs more time to process, as it needs to navigate through multiple classes for its implementation. Also, the classes involved in Inheritance - the base class and the child class, are very tightly coupled together. So if one needs to make some changes, they might need to do nested changes in both classes. Inheritance might be complex for implementation, as well. So if not correctly implemented, this might lead to unexpected errors or incorrect outputs.
+  Yes. The limitations of inheritance are:
+1. Increased execution effort and time
+2. Tight coupling of parent and child class
+3. Requires correct implementation
+4. It takes more time to jumping between different classes
 
 26. What are the various types of Inheritance ?
   The various types of inheritance include:
@@ -260,4 +264,67 @@ However, on the other hand, C++ can be implemented without OOPs, as it also supp
 4. In certian scenarios, these programs can consume a large amount of memory.
 5. Takes more time to solve problems.
 
-44. 
+44. What are the difference between class and object ?
+  Class
+1. It is a logical entity.
+2. It is conceptual.
+3. It binds data and methods together in a single unit.
+4. It does not occupy space in the memory.
+5. Class can be understood as a blueprint.
+6. It is declared once.
+7. It uses the keyword class when declared.
+8. A class can exist without any object.
+
+  Object
+1. It is a real world entity.
+2. It is real.
+3. It is just like a variable of a class.
+4. It occupies space in the memory.
+5. It is an instance of the class.
+6. Multiple objects can be declared.
+7. It uses the new keyword to create an object.
+8. Objects cannot exist without a class.
+
+45. What are the rules for creating a constructor ?
+  Rules for creating a constructor -
+1. It cannot have a return type.
+2. It must have the same name as the class.
+3. It cannot be marked as static.
+4. It cannot be marked as abstract.
+5. It cannot be overridden.
+6. It cannot be final.
+
+46. What are the difference between error and exception ?
+  Error
+1. An error cannot be recovered.
+2. All errors in java are unchecked.
+3. It occurs at run time.
+4. It belongs to java.lang.Error package.
+5. Errors will not be known to the compiler.
+6. Example - Java.lang.StackOverflow
+
+  Exception
+1. Exception can be recovered by using the try-catch block.
+2. It can be classified into two categories i.e. checked and unchecked.
+3. It occurs at compile time or run time.
+4. It belongs to java.lang.Exception package.
+5. Only checked exceptions are known to the compiler.
+6. Example - NullPointerException
+
+47. Is it possible for a class to inherit the constructor of its base class ?
+  No, a class cannot inherit the constructor of its base class.
+
+48. Give a real-world example of polymorphism ?
+  The general meaning of Polymorphism is one that has different forms. The best real-world example of polymorphism is a person that plays different roles at different palaces or situations.
+1. At home a person can play the role of father, husband, and son.
+2. At the office the same person plays the role of boss or employee.
+3. In public transport, he plays the role of passenger.
+4. In the hospital, he can play the role of doctor or patient.
+5. At the shop, he plays the role of customer.
+
+49. What is the difference between a base class and a superclass ?
+  The base class is the root class- the most generalized class. At the same time, the superclass is the immediate parent class from which the other class inherits.
+
+50. Define virtual functions ?
+  The functions that help achieve runtime polymorphism are a part of functions present in the parent class and overridden by a subclass. 
+
