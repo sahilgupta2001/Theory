@@ -84,3 +84,8 @@ class Test {
   }
 }
 
+14. How does C++ support Polymorphism ?
+  C++ is an object-oriented programming and it supports Polymorphism as well :
+1. Compile Time Polymorphism - C++ supports compile-time polymorphism with the help of features like templates, function overloading, and default arguments.
+2. Runtime Polymorphism - C++ supports runtime polymorphism with the help of features like virtual functions.
+
