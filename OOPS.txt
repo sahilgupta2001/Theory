@@ -112,3 +112,41 @@ For example, consider a car. You only need to know how to run a car and not how 
 18. Is it always necessary to create objects from class ?
   No. An object is necessary to be created when base class has non-static methods, but when class has static methods, then objects is not necessary to be created. You can call class method directly in this class, using the class name.
 
+19. What is Constructor ?
+  Constructer refers to a special types of methods whose name is same as the class name. The Constructor serve the special purpose of initializing the objects.
+For example, suppose there is a class with the name "MyClass", then when you instantiate this class, you pass this syntax - 
+MyClass myclassobject = new MyClass();
+Now here, the method called after "new" keyword - MyClass(), is the constructor of this class. This will help ti instantiate the member data and methods and assign them to the object myClassObject.
+
+20. What are the various types of constructors in C++ ?
+  The most common classification of constructor includes :
+1. Default Constructor - The default constructor is the constructor which doesn't take any argument. It has no parameters.
+For example -
+class ABC {
+  int x;
+  ABC() {
+    x=0;
+  }
+}
+
+2. Parameterized Constructor - The constructor that take some arguments are known as PC.
+For example - 
+class ABC {
+  int x;
+  ABC(int y) {
+    x=y;
+  }
+}
+
+3. Copy Constructor - Copy constructor is the type of constructor whose purpose an copy an object to another object.
+For example - 
+class ABC {
+  int x;
+  ABC(int y) {
+    x=y;
+  }
+// copy constructor
+  ABC(ABC abc) {
+    x=abc.x;
+  }
+}
