@@ -211,7 +211,11 @@ Overriding is a runtime polymorphism feature in which an entity has the same nam
 Also, an abstract class can contain abstract methods as well as non-abstract methods.
 
 36. What are access specifiers and what is their significance ?
-
+  Access specifier are keywords which are used to define the access scope of the method, class or variable. In Java, there are four access specifier are - 
+1. Public - The class, method or variable which are defined as public, can be accessed by all class or method.
+2. Protected - Protected can be accessed by the class of the same package, by subclass in the class, or within the same class.
+3. Default - Default are accessible within the package only. By default, the class, method or variable are of default scope.
+4. Private - The private class, method or variable are defined as private can be accessed within the class only.
 
 37. What is an exception ?
   Exception is a mechanism where we find that our program was terminated because of an unexpected failures.
