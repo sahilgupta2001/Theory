@@ -332,3 +332,79 @@ However, on the other hand, C++ can be implemented without OOPs, as it also supp
 50. Define virtual functions ?
   The functions that help achieve runtime polymorphism are a part of functions present in the parent class and overridden by a subclass. 
 
+51. What is the difference between method overloading and method overridden ?
+52. What is Constructor Overloading ?
+  A class has multiple constructors having same name but different in parameters.
+Example - 
+public class Emp {
+//instance variable of the class
+int id;
+String name;
+
+Emp() {
+  System.out.println("default constructor");
+}
+Emp(int i, String n){
+id = i;
+name = n;
+}}
+
+53. What is Constructor Overriding ?
+54. What is Finally block in Java ?
+  1. It follows try-catch block.
+  2. It is always executed whether an exception is handle or not.
+  3. It is used to execute important code such as closing connection.
+Syntax -
+try{
+//code might have an exception
+}
+catch{
+//statement that handle an exception
+}
+finally{
+//code to execute
+}
+
+55. What is try-catch block in java ?
+  1. it contains a set of statements where an exception can occur.
+  2. A try block is always followed by a catch block, which handles the uncertain condition of a try block.
+  3. If the code has or throws any exception it should be handled by using catch blocks.
+Syntax -
+try{
+//code might have an exception
+}
+catch{
+//statement that handle an exception
+}
+
+56. What is checked exception in Java ?
+  1. An exception that occurs during the compile time, they can be checked before the execution of the program.
+  2. It is also known as compile exception.
+  3. Type of checked exception are - IOException, SQLException
+  4. Example - 
+class ExceptionTest {
+  public static void main(String[] args) {
+    throws FileNotFoundException {
+    FileInputStream file = null;
+    try {
+      file = new FileInputStream("home/mayur/GFG.txt");  //file note found exception
+    }
+    catch (FileNotFoundException e) {
+      System.out.println("File does not Found");
+    }}}}
+
+57. What is unchecked exception in Java ?
+  1. It is an exception that occurs during the runtime of program. 
+  2. It is also known as runtime exception.
+  3. Type of unchecked exception are - ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc.
+  4. Here are some example - 
+public class ExceptoinTest {
+  public static void main(String[] args){
+    int a = 50/0;  //ArithmeticException
+    
+    String s=null;
+    System.out.println(s.length());  //NullPointerException
+
+    int a[] = new int[5];
+    a[10] = 50; //ArrayIndexOutOfBoundsException
+}}
