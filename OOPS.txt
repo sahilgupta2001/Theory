@@ -198,7 +198,7 @@ Let me explain to you with a common example. Let's take three different vehicles
 
 32. What is the difference between overloading and overriding ?
   Overloading is a compile-time polymorphism feature in which an entity has multiple implementations with the same name. For example, Method overloading and Operator overloading.
-Overriding is a runtime polymorphism feature in which an entity has the same name, but its implementation changes during execution. For example, Method overriding.
+  Overriding is a runtime polymorphism feature in which an entity has the same name, but its implementation changes during execution. For example, Method overriding.
 
 33. How is data abstraction accomplished ? 
   Data abstraction is accomplished with the help of abstract methods or abstract classes.
@@ -247,9 +247,13 @@ However, on the other hand, C++ can be implemented without OOPs, as it also supp
 41. What is the difference between throw and throws ?
   throw
 1. It is used to actually throw an exception.
+2. throw is used within the method.
+3. We are allowed to throw only one exception at a time i.e. we cannot throw multiple exceptions.
 
   throws
 1. It is used in method declarations to specify possible exceptions.
+2. throws is used within the method signature.
+3. We can declare multiple exceptions using throws keyword that can be thrown by the method. For example, main() throws IOException, SQLException.
 
 42. What are the advantages and disadvantages of OOPs ?
   Advantages of OOPs
@@ -340,10 +344,16 @@ However, on the other hand, C++ can be implemented without OOPs, as it also supp
 
 51. What is the difference between method overloading and method overridden ?
   Method Overloading
-1. 
+1. Method overloading is used to increase the readability of the program.
+2. Method overloading is performed within class.
+3. In case of method overloading, parameter must be different.
+4. Method overloading is the example of compile time polymorphism.
 
   Method Overriding
-1. 
+1. Method overriding is used to provide the specific implementation of the method that is already provided by its super class.
+2. Method overriding occurs in two classes that have IS-A (inheritance) relationship.
+3. In case of method overriding, parameter must be same.
+4. Method overriding is the example of run time polymorphism.
 
 52. What is Constructor Overloading ?
   A class has multiple constructors having same name but different in parameters.
@@ -362,6 +372,7 @@ name = n;
 }}
 
 53. What is Constructor Overriding ?
+
 54. What is Finally block in Java ?
   1. It follows try-catch block.
   2. It is always executed whether an exception is handle or not.
@@ -485,6 +496,119 @@ public class Circle extends Shape {
 }
 
 61. What is the difference between get() and set() ?
+62. What is the difference between Abstract Class and Interfaces ?
+  Abstract Class
+1. Abstract class can have abstract and non-abstract methods.
+2. Abstract class doesn't support multiple inheritance.
+3. Abstract class can have final, non-final, static and non-static variables.
+4. Abstract class can provide the implementation of interface.
+5. The abstract keyword is used to declare abstract class.
+6. An abstract class can extend another Java class and implement multiple Java interfaces.
+7. An abstract class can be extended using keyword "extends".
+8. A Java abstract class can have class members like private, protected, etc.
+9. Example:
+public abstract class Shape{
+public abstract void draw();
+}
+
+  Interface
+1. Interface can have only abstract methods. Since Java 8, it can have default and static methods also.
+2. Interface supports multiple inheritance.
+3. Interface has only static and final variables.
+4. Interface can't provide the implementation of abstract class.
+5. The interface keyword is used to declare interface.
+6. An interface can extend another Java interface only.
+7. An interface can be implemented using keyword "implements".
+8. Members of a Java interface are public by default.
+9. Example:
+public interface Drawable{
+void draw();
+}
+
+Example of both abstract class and interface
+//Creating interface that has 4 methods  
+interface A{  
+void a();//bydefault, public and abstract  
+void b();  
+void c();  
+void d();  
+}  
+  
+//Creating abstract class that provides the implementation of one method of A interface  
+abstract class B implements A{  
+public void c(){System.out.println("I am C");}  
+}  
+  
+//Creating subclass of abstract class, now we need to provide the implementation of rest of the methods  
+class M extends B{  
+public void a(){System.out.println("I am a");}  
+public void b(){System.out.println("I am b");}  
+public void d(){System.out.println("I am d");}  
+}  
+  
+//Creating a test class that calls the methods of A interface  
+class Test5{  
+public static void main(String args[]){  
+A a=new M();  
+a.a();  
+a.b();  
+a.c();  
+a.d();  
+}}  
+/*
+Output:
+I am a
+I am b
+I am c
+I am d
+*/
+
+63. What is the difference between final, finally and finalize ?
+  Final
+1. final is the keyword and access modifier which is used to apply restrictions on a class, method or variable.
+2. Final keyword is used with the classes, methods and variables.
+3. Once declared, final variable becomes constant and cannot be modified.
+4. Final method is executed only when we call it.
+
+  Finally
+1. finally is the block in Java Exception Handling to execute the important code whether the exception occurs or not.
+2. Finally block is always related to the try and catch block in exception handling.
+3. finally block runs the important code even if exception occurs or not.
+4. Finally block is executed as soon as the try-catch block is executed.
+
+  Finalize
+1. finalize is the method in Java which is used to perform clean up processing just before object is garbage collected.
+2. finalize() method is used with the objects.
+3. finalize method performs the cleaning activities with respect to the object before its destruction.
+4. finalize method is executed just before the object is destroyed.
+
+64. What is Static keyword ?
+  Static keyword -
+1. The static keyword in Java is used for memory management mainly. 
+2. We can apply static keyword with variables, methods, blocks and nested classes.  
+3. The static keyword belongs to the class than an instance of the class.
+4. The static can be:
+  1. Variable (also known as a class variable)  
+  2. Method (also known as a class method)
+  3. Block
+  4. Nested class
+
+65. What is Static Variable ?
+  Static Variable -
+1. The static variable can be used to refer to the common property of all objects (which is not unique for each object), for example, the company name of employees, college name of students, etc.
+2. The static variable gets memory only once in the class area at the time of class loading.
+
+66. What is Static Method ?
+  Static Method -
+1. A static method belongs to the class rather than the object of a class.
+2. A static method can be invoked without the need for creating an instance of a class.
+3. A static method can access static data member and can change the value of it.
+
+67. What is Static Block ?
+  Static Block -
+1. Is used to initialize the static data member.
+2. It is executed before the main method at the time of classloading.
+
 
 String
 1. What is a String in Java ?
@@ -493,12 +617,19 @@ String
 2. What is the difference between 'String', 'StringBuilder' and 'StringBuffer' ?
   String
 1. String is immutable.
+2. String is slow and consumes more memory when we concatenate too many strings because every time it creates new instance.
+3. String class uses String constant pool.
 
   StringBuilder
-1. StringBuilder is mutable and not synchronized
+1. StringBuilder is mutable and not synchronized.
+2. StringBuilder is more efficient than StringBuffer.
+3. 
 
   StringBuffer
 1. StringBuffer is mutable and synchronized.
+2. StringBuffer is fast and consumes less memory when we concatenate strings.
+3. StringBuffer uses Heap memory.
+4. StringBuffer is less efficient than StringBuilder.
 
 3. How do you compare two strings in Java ?
   Use the 'equals()' method to compare the contents of two strings.
