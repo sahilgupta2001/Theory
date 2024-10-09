@@ -426,3 +426,121 @@ public class ExceptoinTest {
 
 59. What is the try-with-resources statement ?
   'try-with-resources' automatically closes resources when the block finishes execution.
+
+60. What is the difference between Encapsulation and Data Abstraction ?
+61. What is the difference between get() and set() ?
+
+String
+1. What is a String in Java ?
+  A string is an object that represents a sequence of characters.
+
+2. What is the difference between 'String', 'StringBuilder' and 'StringBuffer' ?
+  String
+1. String is immutable.
+
+  StringBuilder
+1. StringBuilder is mutable and not synchronized
+
+  StringBuffer
+1. StringBuffer is mutable and synchronized.
+
+3. How do you compare two strings in Java ?
+  Use the 'equals()' method to compare the contents of two strings.
+
+4. What is the 'intern()' method ?
+  The 'intern()' method returns a canonical representation of a string.
+
+5. What is String concatenation ?
+  String concatenation is joining two or more strings together using the '+' operator or 'concat()' method.
+
+6. How do you convert a string to an integer ?
+  Use 'Integer.parseInt()' to convert a string to an integer.
+
+7. What is the 'substring()' method ?
+  The substring() method extracts a part of the string based on given indices.
+
+8. What is String.format() used for ?
+  String.format() is used to create formatted strings with specified format specifiers.
+
+9. How do you check if a string contains a specific sequence ?
+  Use the contains() method to check if a string contains a specific sequence.
+
+10. What is StringBuilder used for ?
+  StringBuilder is used for creating and manipulating the mutable strings.
+
+Multi-threading
+1. What is a thread ?
+  A thread is a loghtweight process that executes code independently within a program.
+
+2. What is the difference between 'Runnable' and 'Thread' ?
+  Runnable
+1. Runnable is an interface that defines a task.
+
+  Thread
+1. Thread is a class that can be used to execute tasks in parallel.
+
+3. How do you create a thread in Java ?
+  You can create a thread by extending the thread class or implementing the runnable interface.
+
+4. What is the 'synchronized' keyword ?
+  The synchronized keyword is used to ensure that a block of code or method is accessed by only one thread at a time.
+
+5. What is a deadlock ?
+  A deadlock is a situation where two or more threads are blocked forever, waiting for each other to release resources.
+
+6. What is thread safety ? 
+  Thread safety means that a class or method behaves correctly when multiple threads access it concurrently
+
+7. What is the 'join()' method ?
+  The join() method is used to wait for a thread to finish its execution.
+
+8. What is the 'volatile' keyword ?
+  The volatile keyword ensures that a variable's value is always read from and written to the main memory.
+
+9. What is the different states of a thread ?
+  The states of a thread are - New, Runnable, Blocked, Waiting, Timed Waiting, and Terminated.
+
+10. What is a thread pool ?
+  A thread pool is a collection of worker threads that efficiently execute tasks.
+
+Collections
+1. What is the Java Collections Framework ?
+  It is a set of classes and interfaces that implement commonly reusable collection data structures.
+
+2. What is the difference between List, Set and Map ?
+  List
+1. It allows duplicates and maintains order.
+
+  Set
+1. It does not allow duplicates and has no order.
+
+  Map
+1. It stores key-value pairs with unique keys.
+
+3. What is ArrayList ?
+  ArrayList is a resizable array implementation of the List interface.
+
+4. What is HashSet ?
+  HashSet is a set implementation that uses a hash table and does not maintain order.
+
+5. What is LinkedList ?
+  LinkedList is a doubly-linked list implementation of the List Interface.
+
+6. What is HashMap ?
+  HashMap is a map implementation that uses a hash table for key-value pairs.
+
+7. What is the difference between HashMap and TreeMap ?
+  HashMap
+1. It does not maintain order.
+
+  TreeMap
+1. It maintains keys in a sorted order.
+
+8. What is PriorityQueue ?
+  It is a queue that orders elements based on their natural ordering or a comparator.
+
+9. What is LinkedHashMap ?
+  It maintains the order of elements based on their insertion order.
+
+10. How do you iterate over a collection ?
+  Use an iterator or enhanced for-loop to iterate over a collection.
