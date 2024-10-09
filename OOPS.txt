@@ -102,7 +102,7 @@ class Test {
 2. Runtime Polymorphism - C++ supports runtime polymorphism with the help of features like virtual functions.
 
 15. What is meant by Inheritance ?
-  In Object-Oriented Programming, Inheritance is the mechanism by which an object or class(referred to as a child) is created using the definition of another object or class(referred to as child). Inheritance not only helps to keep the implementation simpler but also helps to facilitate code reuse.
+  In Object-Oriented Programming, Inheritance is the mechanism by which an object or class(referred to as a child) is created using the definition of another object or class(referred to as parent). Inheritance not only helps to keep the implementation simpler but also helps to facilitate code reuse.
 
 16. What is Abstraction ?
   Abstraction is the method of hiding unnecessary details from the necessary ones. It is one of the main features of OOPs.
