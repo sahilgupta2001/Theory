@@ -245,6 +245,12 @@ No. Java applications are based on Object-oriented programming models or OOPs co
 However, on the other hand, C++ can be implemented without OOPs, as it also supports the C-like structural programming model.
 
 41. What is the difference between throw and throws ?
+  throw
+1. It is used to actually throw an exception.
+
+  throws
+1. It is used in method declarations to specify possible exceptions.
+
 42. What are the advantages and disadvantages of OOPs ?
   Advantages of OOPs
 1. OOPs is very helpful in solving very complex level of problems.
@@ -333,6 +339,12 @@ However, on the other hand, C++ can be implemented without OOPs, as it also supp
   The functions that help achieve runtime polymorphism are a part of functions present in the parent class and overridden by a subclass. 
 
 51. What is the difference between method overloading and method overridden ?
+  Method Overloading
+1. 
+
+  Method Overriding
+1. 
+
 52. What is Constructor Overloading ?
   A class has multiple constructors having same name but different in parameters.
 Example - 
@@ -408,3 +420,9 @@ public class ExceptoinTest {
     int a[] = new int[5];
     a[10] = 50; //ArrayIndexOutOfBoundsException
 }}
+
+58. What is Custom Exception ?
+  A custom exception is a user defined class that extends 'Exception' or 'RuntimeException'.
+
+59. What is the try-with-resources statement ?
+  'try-with-resources' automatically closes resources when the block finishes execution.
