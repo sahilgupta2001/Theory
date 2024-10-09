@@ -428,6 +428,62 @@ public class ExceptoinTest {
   'try-with-resources' automatically closes resources when the block finishes execution.
 
 60. What is the difference between Encapsulation and Data Abstraction ?
+  Encapsulation
+1. Encapsulation is a process of binding the data member and method of the program together to do a specific job, without revealing unnecessary details.
+2. Encapsulation solves at issue at implementation level.
+3. It focuses on internal working.
+4. It can be implemented by the access modifiers.
+5. It is the process of containing the information.
+6. We use the getters and setters methods to hide the data.
+7. The object need not to abstract that result in encapsulation.
+8. Here example -
+public class Employee {
+    private String name;
+    private int salary;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+}
+
+  Abstraction
+1. Abstraction is the process of hiding the unnecessary details from the necessary details.
+2. It solves an issue at the design level.
+3. It focuses on the external lookout.
+4. It can be implemented using abstract classes and interfaces.
+5. It is the process of gaining information.
+6. In abstraction, we use abstract classes and interfaces to hide the code complexities.
+7. The objects are encapsulated that helps to perform abstraction.
+8. Here example - 
+public abstract class Shape {
+    public abstract double calculateArea();
+}
+
+public class Circle extends Shape {
+    private double radius;
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    public double calculateArea() {
+        return Math.PI * radius * radius;
+    }
+}
+
 61. What is the difference between get() and set() ?
 
 String
