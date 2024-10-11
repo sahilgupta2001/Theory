@@ -1,6 +1,6 @@
 1. What is Java and types of data type ?
   1. Java is a high level,object-oriented programming language that was developed by James Gosling at 1995.
-  2. It is platform-independent, meaning that programs written can run on any platform that has a Java Virtual Machine(JVM) installed.
+  2. It is platform-independent, meaning that programs written can run on any platform that has a Java Virtual Machine(JVM) installed in it.
   3. There are two tpes of data types defined in the java - 
     i. primitive - This type of data is predefined by Java. We just use them to provide the data type for the input. These data types are defined as below - 
       - byte
