@@ -4,8 +4,7 @@
 22. What is foreign key..?
 
 19. What is SQL (Structured query language)
-
-	SQL is used to manipulate the data.
+SQL is used to manipulate the data.
 
 23. Select 
 24. Where 
