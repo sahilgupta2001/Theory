@@ -47,4 +47,3 @@ Incase of drop also we can't rollback the data.
 
 		Grant, Revoke
 
-kjbkjbkjbkj
