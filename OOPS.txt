@@ -623,7 +623,6 @@ String
   StringBuilder
 1. StringBuilder is mutable and not synchronized.
 2. StringBuilder is more efficient than StringBuffer.
-3. 
 
   StringBuffer
 1. StringBuffer is mutable and synchronized.
