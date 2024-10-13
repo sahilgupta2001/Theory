@@ -1,4 +1,5 @@
-19. What is SQL..?
+1. What is SQL ?
+  It stands for Structured Query Language.
 20. What is Primary Key..?
 21. What is Unique key.?
 22. What is foreign key..?
