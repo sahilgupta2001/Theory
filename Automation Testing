@@ -1,2 +1,27 @@
 1. What is Automation Testing, and why is it important?
   Automation testing uses specialized software to execute tests on a software application without manual intervention. It’s important because it speeds up the testing process, enhances accuracy by eliminating human error, and allows for frequent test execution, which improves software quality and reduces time to market. This is particularly beneficial for automation testers working with repetitive test cases.
+
+2. Automation - it is a type of testing which is done by using a tool . these tools generally requires langauge to work with. 
+
+3. Selenium -  it a automation tool which is used to automate web based applications.
+ it is open source . it supports multiple language. it is platform independent . it supports multiple ide. it is popularly known as selenium webdriver tool.
+
+4. there are follwoing things required to start automation - 
+
+1) IDE - Eclipse
+2) Language - Java
+3) Selenium
+4) driver.exe
+5) TestNg
+
+
+5. Locator - it is used to locate web elements present on the page. there are 8 types of locators available 
+
+- by Id
+- by Name
+- by class
+- by tagName
+- by linktext
+- by partial linktext
+- by CSS selectors
+- by xpath
