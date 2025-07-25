@@ -8,7 +8,14 @@
 
 Or 
 
-Selenium is an open-source tool used to automatically test web applications by simulating user actions in web browsers like Chrome, Firefox, and Safari. It helps developers and testers write scripts in various programming languages (such as Java, Python, and C#) to control browsers, check if a website works correctly, and run tests quickly and reliably across different browsers
+Selenium is an open-source tool used to automatically test web applications by simulating user actions in web browsers like Chrome, Firefox, and Safari. It helps developers and testers write scripts in various programming languages (such as Java, Python, and C#) to control browsers, check if a website works correctly, and run tests quickly and reliably across different browsers.
+Selenium includes different components:
+
+Selenium WebDriver: Controls browsers programmatically for automation
+
+Selenium IDE: Records and plays back user actions for easy test creation
+
+Selenium Grid: Runs tests simultaneously on multiple machines for faster execution
 
 4. there are follwoing things required to start automation - 
 
