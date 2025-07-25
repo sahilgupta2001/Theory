@@ -6,6 +6,10 @@
 3. Selenium -  it a automation tool which is used to automate web based applications.
  it is open source . it supports multiple language. it is platform independent . it supports multiple ide. it is popularly known as selenium webdriver tool.
 
+Or 
+
+Selenium is an open-source tool used to automatically test web applications by simulating user actions in web browsers like Chrome, Firefox, and Safari. It helps developers and testers write scripts in various programming languages (such as Java, Python, and C#) to control browsers, check if a website works correctly, and run tests quickly and reliably across different browsers
+
 4. there are follwoing things required to start automation - 
 
 1) IDE - Eclipse
