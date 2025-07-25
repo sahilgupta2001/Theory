@@ -25,3 +25,21 @@
 - by partial linktext
 - by CSS selectors
 - by xpath
+
+TestNg - it is called as test next generation. it is used in place of junit. it is a TDD framework. it provided multiple advantage as below - 
+
+
+1) it provides us annotations like below
+-@beforesuit
+-@beforetest
+-@beforeclass
+-@beforemethod
+-@test
+-@aftermethod
+-@afterclass
+-@aftertest
+@aftersuit
+
+2) it provides us .xml file, with the help of which we execute our script.
+
+3) it provides us automatically generated reports.
