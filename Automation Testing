@@ -54,3 +54,26 @@ TestNg - it is called as test next generation. it is used in place of junit. it 
 2) it provides us .xml file, with the help of which we execute our script.
 
 3) it provides us automatically generated reports.
+
+
+Validation - it is a process to match expected and actual. in the automation, we call it as assertion and it is done by two ways
+
+1) Hard Assert - it is also calles by Assert. In this process, we use Assert class to do the validation or aasertion. This class is having all the methods static in it. We generally do not use Hard Assert, because if in case it fails at any pointy of validation then it gterminates the program at the same point.
+2) Soft Assert - it is also calles by Verify. In this process, we use SoftAssert class to do the validation or aasertion. This class is having all the methods nonstatic in it. We generally use Soft Assert, because if in case it fails at any pointy of validation then it does not terminates the program at the that point. meanwhile it executes all the steps and than it will look for the command '.assertAll()',.
+
+
+
+21/11
+Wait - it is also called as synchronization. it is used to hold your execution od the code for a specific period of time. it is of two types
+
+1) hard wait - it is called as a java wait where if we define any time for examplae 20 second for wait to perform any action and that action if get completed within 10 seconds then the hard wait will not move to the next step it will keep waiting till 20 seconds then after it will move to next step. It is static in nature and not flexible
+ 
+2) soft wait - it is called as a selenium wait where if we define any time for example 20 second for wait to perform any action and that action if get completed within 10 seconds then the soft wait will move to the next step it will not keep waiting for remaining time. it is dynamic in nature.
+
+
+
+25/11
+SoftWait - it is divided into follwoing types
+1) implicit wait - it is used when a web page is getting loaded. it gives only one type of exception i.e. 'TimeOut' exception.
+2) explicit wait - it is used for different different conditions present on the web page with different different web elements.
+3) fluent wait - it is used for different conditions present on the web page but it work in the period manner.
