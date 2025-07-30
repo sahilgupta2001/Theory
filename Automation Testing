@@ -77,3 +77,81 @@ SoftWait - it is divided into follwoing types
 1) implicit wait - it is used when a web page is getting loaded. it gives only one type of exception i.e. 'TimeOut' exception.
 2) explicit wait - it is used for different different conditions present on the web page with different different web elements.
 3) fluent wait - it is used for different conditions present on the web page but it work in the period manner.
+
+
+1. What is the difference between findElement and findElements in Selenium?
+
+> findElement returns the first matching WebElement, and throws an exception if not found.
+findElements returns a list of WebElements; if nothing is found, it returns an empty list (no exception).
+
+
+
+
+---
+
+🔍 2. How do you handle dynamic elements in Selenium?
+
+> Use XPath with contains(), starts-with()
+
+Use waits (Explicit Wait or Fluent Wait)
+
+Example XPath: //button[contains(text(),'Login')]
+
+
+
+
+
+---
+
+🧱 3. What frameworks have you used in Automation Testing?
+
+> “I’ve used the Page Object Model (POM) with TestNG and Maven for managing dependencies.
+We separated locators, test logic, and data to make the framework scalable. Reporting was done using ExtentReports and we integrated it with Jenkins for CI/CD.”
+
+
+
+
+---
+
+🌐 4. How do you test APIs using Postman or RestAssured?
+
+> In Postman, I test endpoints using GET, POST, PUT, DELETE methods, validate response status codes and payloads.
+
+In RestAssured, I write automation scripts like:
+
+
+
+
+given().header("Content-Type", "application/json")
+.when().get("/users")
+.then().statusCode(200).log().all();
+
+
+---
+
+🧪 5. How do you perform data-driven testing in Selenium?
+
+> I use Excel files + Apache POI, or CSV/JSON files, or DataProvider in TestNG to feed multiple inputs into test cases.
+
+
+
+
+---
+
+🕒 6. How do you handle waits in Selenium?
+
+Implicit Wait: Applies globally
+
+Explicit Wait: Waits for a specific condition
+
+
+WebDriverWait wait = new WebDriverWait(driver, 10);
+wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));
+
+
+---
+
+🐞 7. How do you log and report bugs?
+
+> I use JIRA for logging bugs with clear steps, screenshots, priority/severity, and test environment details.
+I also tag the bug with relevant labels and link it to the failed test case if possible.
