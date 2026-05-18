@@ -270,3 +270,21 @@ First, I analyse the dropdwon behaviour:
 3. If lazy loading --> scroll and load
 4. Looping all values is my last option only
 
+22. Explain CI/CD Pipeline?
+CI/CD automates build, test execution and deployment.
+Flow:
+Code Push --> Build --> Automation Tests --> Report --> Deployment
+We used CI/CD for rightly regression and release validation.
+
+23. Which Selenium exception was difficult to handle?
+StaleElementReferenceException
+It occurs when DOM is refreshed and element reference is lost.
+Handling:
+1. To Re-locate Element
+2. Use Waits
+3. Retry Logic
+WebDriverWait wait = new WebDriverWait(Duration.ofSeconds(10));
+wait.until(ExpectedConditions.refreshed(ExpectedConditions.VisibilityOf(element));
+
+24. Explain components of REST API/ Rest Assured?
+Rest is stands for Representational State Transfer
