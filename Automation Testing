@@ -155,3 +155,118 @@ wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));
 
 > I use JIRA for logging bugs with clear steps, screenshots, priority/severity, and test environment details.
 I also tag the bug with relevant labels and link it to the failed test case if possible.
+
+8. Which framework do you prefer Cucumber or TestNG?
+I prefer TestNG with POM Hybrid Framework.
+Reasons:
+1. Faster Execution compared to cucumber
+2. Better Debugging
+3. Less maintenance
+4. Better control over execution and retries
+In my project, Business did not require Gherkin syntax, so TestNG was more efficient and stable.
+
+9. What are the limitations of cucumber?
+Cucumber has some limitations:
+1. Slower Execution
+2. Higher maintenance for feature files
+3. Step defination duplication
+4. Debugging is difficult due to extra layers
+In large projects, managing features files becoming complex, which is why we preferred TestNG Hybrid.
+
+10. Explain WebDriver?
+WebDriver is a selenium interface which is used to automate web browsers.
+WebDriver driver = new ChromeDriver();
+Here,
+WebDriver is an interface
+ChromeDriver is the implementation
+WebDriver provides method to open browsers, locate elements, perform actions and validate results.
+
+11. Explain Data Driver Testing in TestNG?
+Data Driver Testing means executing the same test case with multiple sets of data.
+In TestNG, we use @DataProvider
+
+@DataProvider
+public Object [][] data() {
+  return new Object[][] {
+    {"user1", "pass1},
+    {"user2", "pass2}
+  };
+}
+I used this mainly for login, registration and negative test scenarios.
+
+12. Explain execution order: BeforeTest, BeforeMethod, AfterMethod, AfterTest?
+The execution order is 
+1. @BeforeTest
+2. @BeforeMethod
+3. @Test
+4. @AfterMethod
+5. @AfterTest
+In real time:
+1. @BeforeTest --> Browser Setup
+2. @BeforeMethod --> LogIn
+3. @AfterMethod --> LogOut
+4. @AfterTest --> Close Browser
+
+13. Explain Parallel Execution?
+Parallel execution allows multiple test cases to run at the same time using multiple threads.
+<suite parallel="tests" thread-count="3">
+We used this in regression suites to reduce execution time in CI/CD pipelines.
+
+14. How do you group test cases?
+Grouping allows us to execute specific set of test cases like smoke, sanity, and regression.
+@Test(groups="smoke",
+              "sanity")
+We use smoke tests after deployment and regression test before release.
+
+15. What is the return type of getWindowHandle()?
+The return type is Set<String> because window handles are unique and duplication is not allowed.
+
+16. Explain Hashing(Correctly)?
+Hashing is a technique used to store and retreive data quickly using a key-value pair.
+Java uses hashing in HashMap.
+
+HashMap<String, String> data = new HashMap<>();
+data.put("username", "admin");
+
+Internally, HashMap uses a hash function to convert keys into hash codes, which decides where the data is stored in memory.
+In my framework, I used Hashmap to store:
+1. TestData
+2. Environment details
+3. API Response values
+This avoids looping and improves performance.
+
+17. Explain WebDriver Architecture? (Internal Working)
+WebDriver follows a client-server architecture.
+Flow:
+1. Test Script(Java Code)
+2. Selenium WebDriver API
+3. Browser Driver(ChromeDriver)
+4. Actual Browser
+WebDriver acts as a bridge between Selenium and the browser.
+This explains why driver version compatibility is important.
+
+18. Which collections have you used in your framework?
+I have used:
+1. List --> Dropdown values
+2. Set --> Window Handle
+3. Map --> test data and API response
+
+19. Which is better for modification: ArrayList or LinkedList?
+In most cases, ArrayList is preferred because it provides faster access and less memory overhead.
+In Real projects, ArrayList is more commonly used.
+
+20. Explain Iteration in collections.
+Iteration means looping through collection elements.
+for(String value : list) {
+      System.out.println(value);
+}
+used to validate dropdowns and API response lists.
+
+21. Dynamic Dropdown with 500 values - will you loop?
+No, Looping through all 500 values is not the best approach.
+First, I analyse the dropdwon behaviour:
+1. If search box exists --> type and select
+2. If auto-suggestion --> loop filtered results
+3. If lazy loading --> scroll and load
+4. Looping all values is my last option only
+
