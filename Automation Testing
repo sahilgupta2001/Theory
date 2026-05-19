@@ -1,29 +1,29 @@
 1. What is Automation Testing, and why is it important?
-  Automation testing uses specialized software to execute tests on a software application without manual intervention. It’s important because it speeds up the testing process, enhances accuracy by eliminating human error, and allows for frequent test execution, which improves software quality and reduces time to market. This is particularly beneficial for automation testers working with repetitive test cases.
+Automation - it is a type of testing which is done by using a tool . these tools generally requires langauge to work with. 
 
-2. Automation - it is a type of testing which is done by using a tool . these tools generally requires langauge to work with. 
-
-3. Selenium -  it a automation tool which is used to automate web based applications.
- it is open source . it supports multiple language. it is platform independent . it supports multiple ide. it is popularly known as selenium webdriver tool.
+2. What is Selenium?
+It is a automation tool which is used to automate web based applications.
+It is open source. 
+It supports multiple language. 
+It is platform independent . 
+It supports multiple ide. 
+It is popularly known as selenium webdriver tool.
 Selenium includes different components:
-
 Selenium WebDriver: Controls browsers programmatically for automation
-
 Selenium IDE: Records and plays back user actions for easy test creation
-
 Selenium Grid: Runs tests simultaneously on multiple machines for faster execution
 
-4. there are follwoing things required to start automation - 
-
+3. What things that are required to start automation?
+There are follwoing things required to start automation - 
 1) IDE - Eclipse
 2) Language - Java
 3) Selenium
 4) driver.exe
 5) TestNg
 
-
-5. Locator - it is used to locate web elements present on the page. there are 8 types of locators available 
-
+4. What is Locators?
+Locator - It is used to locate web elements present on the page. 
+There are 8 types of locators available:
 - by Id
 - by Name
 - by class
@@ -33,9 +33,11 @@ Selenium Grid: Runs tests simultaneously on multiple machines for faster executi
 - by CSS selectors
 - by xpath
 
-TestNg - it is called as test next generation. it is used in place of junit. it is a TDD framework. it provided multiple advantage as below - 
-
-
+5. What is TestNg?
+It is called as test next generation. 
+It is used in place of junit. 
+It is a TDD framework. 
+It provided multiple advantage as below - 
 1) it provides us annotations like below
 -@beforesuit
 -@beforetest
@@ -46,20 +48,16 @@ TestNg - it is called as test next generation. it is used in place of junit. it 
 -@afterclass
 -@aftertest
 @aftersuit
+2) It provides us .xml file, with the help of which we execute our script.
+3) It provides us automatically generated reports.
 
-2) it provides us .xml file, with the help of which we execute our script.
-
-3) it provides us automatically generated reports.
-
-
-Validation - it is a process to match expected and actual. in the automation, we call it as assertion and it is done by two ways
-
+6. What is Validation? 
+It is a process to match expected and actual. in the automation, we call it as assertion
+It is done by two ways:
 1) Hard Assert - it is also calles by Assert. In this process, we use Assert class to do the validation or aasertion. This class is having all the methods static in it. We generally do not use Hard Assert, because if in case it fails at any pointy of validation then it gterminates the program at the same point.
 2) Soft Assert - it is also calles by Verify. In this process, we use SoftAssert class to do the validation or aasertion. This class is having all the methods nonstatic in it. We generally use Soft Assert, because if in case it fails at any pointy of validation then it does not terminates the program at the that point. meanwhile it executes all the steps and than it will look for the command '.assertAll()',.
 
 
-
-21/11
 Wait - it is also called as synchronization. it is used to hold your execution od the code for a specific period of time. it is of two types
 
 1) hard wait - it is called as a java wait where if we define any time for examplae 20 second for wait to perform any action and that action if get completed within 10 seconds then the hard wait will not move to the next step it will keep waiting till 20 seconds then after it will move to next step. It is static in nature and not flexible
@@ -68,91 +66,46 @@ Wait - it is also called as synchronization. it is used to hold your execution o
 
 
 
-25/11
-SoftWait - it is divided into follwoing types
+7. What is SoftWait?
+It is divided into follwoing types:
 1) implicit wait - it is used when a web page is getting loaded. it gives only one type of exception i.e. 'TimeOut' exception.
 2) explicit wait - it is used for different different conditions present on the web page with different different web elements.
 3) fluent wait - it is used for different conditions present on the web page but it work in the period manner.
 
-
-1. What is the difference between findElement and findElements in Selenium?
-
-> findElement returns the first matching WebElement, and throws an exception if not found.
+8. What is the difference between findElement and findElements in Selenium?
+findElement returns the first matching WebElement, and throws an exception if not found.
 findElements returns a list of WebElements; if nothing is found, it returns an empty list (no exception).
 
-
-
-
----
-
-🔍 2. How do you handle dynamic elements in Selenium?
-
-> Use XPath with contains(), starts-with()
-
+9. How do you handle dynamic elements in Selenium?
+Use XPath with contains(), starts-with()
 Use waits (Explicit Wait or Fluent Wait)
-
 Example XPath: //button[contains(text(),'Login')]
 
-
-
-
-
----
-
-🧱 3. What frameworks have you used in Automation Testing?
-
-> “I’ve used the Page Object Model (POM) with TestNG and Maven for managing dependencies.
+10. What frameworks have you used in Automation Testing?
+I’ve used the Page Object Model (POM) with TestNG and Maven for managing dependencies.
 We separated locators, test logic, and data to make the framework scalable. Reporting was done using ExtentReports and we integrated it with Jenkins for CI/CD.”
 
-
-
-
----
-
-🌐 4. How do you test APIs using Postman or RestAssured?
-
-> In Postman, I test endpoints using GET, POST, PUT, DELETE methods, validate response status codes and payloads.
-
+11. How do you test APIs using Postman or RestAssured?
+In Postman, I test endpoints using GET, POST, PUT, DELETE methods, validate response status codes and payloads.
 In RestAssured, I write automation scripts like:
-
-
-
-
 given().header("Content-Type", "application/json")
 .when().get("/users")
 .then().statusCode(200).log().all();
 
+12. How do you perform data-driven testing in Selenium?
+I use Excel files + Apache POI, or CSV/JSON files, or DataProvider in TestNG to feed multiple inputs into test cases.
 
----
-
-🧪 5. How do you perform data-driven testing in Selenium?
-
-> I use Excel files + Apache POI, or CSV/JSON files, or DataProvider in TestNG to feed multiple inputs into test cases.
-
-
-
-
----
-
-🕒 6. How do you handle waits in Selenium?
-
+13. How do you handle waits in Selenium?
 Implicit Wait: Applies globally
-
 Explicit Wait: Waits for a specific condition
-
-
 WebDriverWait wait = new WebDriverWait(driver, 10);
 wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));
 
-
----
-
-🐞 7. How do you log and report bugs?
-
-> I use JIRA for logging bugs with clear steps, screenshots, priority/severity, and test environment details.
+14. How do you log and report bugs?
+I use JIRA for logging bugs with clear steps, screenshots, priority/severity, and test environment details.
 I also tag the bug with relevant labels and link it to the failed test case if possible.
 
-8. Which framework do you prefer Cucumber or TestNG?
+15. Which framework do you prefer Cucumber or TestNG?
 I prefer TestNG with POM Hybrid Framework.
 Reasons:
 1. Faster Execution compared to cucumber
@@ -161,7 +114,7 @@ Reasons:
 4. Better control over execution and retries
 In my project, Business did not require Gherkin syntax, so TestNG was more efficient and stable.
 
-9. What are the limitations of cucumber?
+16. What are the limitations of cucumber?
 Cucumber has some limitations:
 1. Slower Execution
 2. Higher maintenance for feature files
@@ -169,7 +122,7 @@ Cucumber has some limitations:
 4. Debugging is difficult due to extra layers
 In large projects, managing features files becoming complex, which is why we preferred TestNG Hybrid.
 
-10. Explain WebDriver?
+17. Explain WebDriver?
 WebDriver is a selenium interface which is used to automate web browsers.
 WebDriver driver = new ChromeDriver();
 Here,
@@ -177,7 +130,7 @@ WebDriver is an interface
 ChromeDriver is the implementation
 WebDriver provides method to open browsers, locate elements, perform actions and validate results.
 
-11. Explain Data Driver Testing in TestNG?
+18. Explain Data Driver Testing in TestNG?
 Data Driver Testing means executing the same test case with multiple sets of data.
 In TestNG, we use @DataProvider
 
@@ -190,7 +143,7 @@ public Object [][] data() {
 }
 I used this mainly for login, registration and negative test scenarios.
 
-12. Explain execution order: BeforeTest, BeforeMethod, AfterMethod, AfterTest?
+19. Explain execution order: BeforeTest, BeforeMethod, AfterMethod, AfterTest?
 The execution order is 
 1. @BeforeTest
 2. @BeforeMethod
@@ -203,21 +156,21 @@ In real time:
 3. @AfterMethod --> LogOut
 4. @AfterTest --> Close Browser
 
-13. Explain Parallel Execution?
+20. Explain Parallel Execution?
 Parallel execution allows multiple test cases to run at the same time using multiple threads.
 <suite parallel="tests" thread-count="3">
 We used this in regression suites to reduce execution time in CI/CD pipelines.
 
-14. How do you group test cases?
+21. How do you group test cases?
 Grouping allows us to execute specific set of test cases like smoke, sanity, and regression.
 @Test(groups="smoke",
               "sanity")
 We use smoke tests after deployment and regression test before release.
 
-15. What is the return type of getWindowHandle()?
+22. What is the return type of getWindowHandle()?
 The return type is Set<String> because window handles are unique and duplication is not allowed.
 
-16. Explain Hashing(Correctly)?
+23. Explain Hashing(Correctly)?
 Hashing is a technique used to store and retreive data quickly using a key-value pair.
 Java uses hashing in HashMap.
 
@@ -231,7 +184,7 @@ In my framework, I used Hashmap to store:
 3. API Response values
 This avoids looping and improves performance.
 
-17. Explain WebDriver Architecture? (Internal Working)
+24. Explain WebDriver Architecture? (Internal Working)
 WebDriver follows a client-server architecture.
 Flow:
 1. Test Script(Java Code)
@@ -241,24 +194,24 @@ Flow:
 WebDriver acts as a bridge between Selenium and the browser.
 This explains why driver version compatibility is important.
 
-18. Which collections have you used in your framework?
+25. Which collections have you used in your framework?
 I have used:
 1. List --> Dropdown values
 2. Set --> Window Handle
 3. Map --> test data and API response
 
-19. Which is better for modification: ArrayList or LinkedList?
+26. Which is better for modification: ArrayList or LinkedList?
 In most cases, ArrayList is preferred because it provides faster access and less memory overhead.
 In Real projects, ArrayList is more commonly used.
 
-20. Explain Iteration in collections.
+27. Explain Iteration in collections.
 Iteration means looping through collection elements.
 for(String value : list) {
       System.out.println(value);
 }
 used to validate dropdowns and API response lists.
 
-21. Dynamic Dropdown with 500 values - will you loop?
+28. Dynamic Dropdown with 500 values - will you loop?
 No, Looping through all 500 values is not the best approach.
 First, I analyse the dropdwon behaviour:
 1. If search box exists --> type and select
@@ -266,13 +219,13 @@ First, I analyse the dropdwon behaviour:
 3. If lazy loading --> scroll and load
 4. Looping all values is my last option only
 
-22. Explain CI/CD Pipeline?
+29. Explain CI/CD Pipeline?
 CI/CD automates build, test execution and deployment.
 Flow:
 Code Push --> Build --> Automation Tests --> Report --> Deployment
 We used CI/CD for rightly regression and release validation.
 
-23. Which Selenium exception was difficult to handle?
+30. Which Selenium exception was difficult to handle?
 StaleElementReferenceException
 It occurs when DOM is refreshed and element reference is lost.
 Handling:
@@ -282,7 +235,7 @@ Handling:
 WebDriverWait wait = new WebDriverWait(Duration.ofSeconds(10));
 wait.until(ExpectedConditions.refreshed(ExpectedConditions.VisibilityOf(element));
 
-24. Explain components of REST API?
+31. Explain components of REST API?
 Rest is stands for Representational State Transfer
 REST API Components are:
 1. Request
@@ -291,7 +244,7 @@ REST API Components are:
 4. Response
 5. Status Code
 
-25. What is Page Object Model(POM)?
+32. What is Page Object Model(POM)?
 Page Object Model is a design pattern where every web page is represented as a seperate class.
 Each Class contain:
 1. WebElement locator
