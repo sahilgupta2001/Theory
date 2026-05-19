@@ -1,8 +1,9 @@
-1. What is Automation Testing, and why is it important?
-Automation - It is a type of testing which is done by using a tool . these tools generally requires langauge to work with. 
+1. What is Automation Testing, and why is it important?
+  Automation testing uses specialized software to execute tests on a software application without manual intervention. It’s important because it speeds up the testing process, enhances accuracy by eliminating human error, and allows for frequent test execution, which improves software quality and reduces time to market. This is particularly beneficial for automation testers working with repetitive test cases.
 
-2. What is Selenium?
-Selenium -  it a automation tool which is used to automate web based applications.
+2. Automation - it is a type of testing which is done by using a tool . these tools generally requires langauge to work with. 
+
+3. Selenium -  it a automation tool which is used to automate web based applications.
  it is open source . it supports multiple language. it is platform independent . it supports multiple ide. it is popularly known as selenium webdriver tool.
 
 Or 
@@ -285,5 +286,32 @@ Handling:
 WebDriverWait wait = new WebDriverWait(Duration.ofSeconds(10));
 wait.until(ExpectedConditions.refreshed(ExpectedConditions.VisibilityOf(element));
 
-24. Explain components of REST API/ Rest Assured?
+24. Explain components of REST API?
 Rest is stands for Representational State Transfer
+REST API Components are:
+1. Request
+2. Headers
+3. Body
+4. Response
+5. Status Code
+
+25. What is Page Object Model(POM)?
+Page Object Model is a design pattern where every web page is represented as a seperate class.
+Each Class contain:
+1. WebElement locator
+2. Reusable methods
+Example:
+public class LoginPage {
+  @FindBy(id="username")
+  private WebElement element;
+
+  public void login() {
+  }
+}
+
+Advantages:
+1. Fast Execution
+2. Better Debugging
+3. Less maintenance
+4. Reusability methods
+In my proect, POM help us manage large-scale application efficient.
